@@ -56,15 +56,19 @@ This figure shows penguins' bill depth and bill length. It helps visualize the c
 This figure shows the mean body mass of each penguin species sampled.
 
 *What happened when you removed the outer parentheses from the code? Why?*\
-There is a syntax error when the outer parenthesis are removed. This is because the function call is wrapped over multiple lines.
+There is a syntax error when the outer parenthesis are removed. This is because the function call is wrapped over multiple lines, and the outer parenthesis are neccessary for this to be understood.
 
 ## Observable and Vega-Lite
 
-*What happens when you replace `markCircle()` with `markSquare()`?*
+*What happens when you replace `markCircle()` with `markSquare()`?*\
+markSquare() causes the circles in the chart to become squares.
 
-*What happens when you replace `markCircle()` with `markPoint()`?*
+*What happens when you replace `markCircle()` with `markPoint()`?*\
+markPoint() causes the circles in the chart to become hollow circles.
 
-*What change do you need to make to swap the x and y axes on the scatterplot?*
+*What change do you need to make to swap the x and y axes on the scatterplot?*\
+Change `vl.x().fieldQ("Horsepower")` to `vl.y().fieldQ("Horsepower")`\
+and `vl.y().fieldQ("Miles_per_Gallon")` to `vl.x().fieldQ("Miles_per_Gallon")`.
 
 *Insert the bar chart image here*\
 ![count of car records](figure3.png)
