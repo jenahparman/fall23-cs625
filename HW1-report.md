@@ -28,7 +28,7 @@ Pushing changes to GitHub.com may have been forgotten.
 ### Level 3 Heading
 
 *Insert an image of an animal, sized appropriately*
-
+<img src="otto.jpeg" height="100" alt="Otto, the cat">
 
 ## Tableau
 
