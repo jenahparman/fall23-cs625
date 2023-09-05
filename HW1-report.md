@@ -21,7 +21,8 @@ Pushing changes to GitHub.com may have been forgotten.
 - Mango
 - Kiwi
 
-*Write a single paragraph that demonstrates the use of italics, bold, bold italics, code, and includes a link. The paragraph does not have to make sense.*
+*Write a single paragraph that demonstrates the use of italics, bold, bold italics, code, and includes a link. The paragraph does not have to make sense.*\
+The girl was reading a book called ***The Self-Taught Programmer:*** *The Definitive Guide to Programming Professionally*. She took a break from reading to write her **first** program: `print("Hello, World!")`. After successfully running the program, she shared her excitement on [her blog](https://www.google.com/).
 
 
 *Create a level 3 heading*
@@ -65,13 +66,21 @@ There is a syntax error when the outer parenthesis are removed. This is because 
 
 *What change do you need to make to swap the x and y axes on the scatterplot?*
 
-*Insert the bar chart image here*
+*Insert the bar chart image here*\
+![count of car records](figure3.png)
 
-*Why do you think this chart is the result of this code change?*
+*Why do you think this chart is the result of this code change?*\
+Removing the line, `vl.y().fieldN("Origin"),`, took away the y-values which were originally three countries of origin. The purpose of the chart was to show quantity of cars from each country. Without the y-values, it just shows the total for all countries.
 
 ## References
 
 *Every report must list the references (including the URL) that you consulted while completing the assignment. Replace the items below with the references you consulted*
 
-* Reference 1, <https://www.example.com>
-* Reference 2, <https://www.example.com/reallyreallyreally-extra-long-URI/>
+* Markdown Guide, <https://www.markdownguide.org/basic-syntax>
+* Tutorial: Get Started with Tableau Desktop, <https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.htm>
+* Overview of Colaboratory Features, <https://colab.research.google.com/notebooks/basic_features_overview.ipynb>
+* seaborn.objects.Agg, <https://seaborn.pydata.org/generated/seaborn.objects.Agg.html#seaborn.objects.Agg>
+* Breaking up long lines of code in Python, <https://www.pythonmorsels.com/breaking-long-lines-code-python/>
+* A taste of Observable, <https://observablehq.com/@observablehq/a-taste-of-observable>
+* Charting with Vega-Lite / Observable, <https://observablehq.com/@observablehq/vega-lite>
+
