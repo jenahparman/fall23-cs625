@@ -1,21 +1,28 @@
 # HW 1 - CS 625, Fall 2023
 
-Insert Your Name Here  
+Jenah Parman
 Due: September 6, 2023
 
 ## Git, GitHub
 
 *What is the URL of the GitHub repo that you created in your personal account?*
+https://github.com/jenahparman/CS625
    
 *In which direction does the 'pull' command work (send local changes to remote OR send remote changes to local)?*
+'Pull' sends remote changes to local.
    
 *If you have committed a change on your local machine, but do not see the update on GitHub.com, what step might have you forgotten?*
+Pushing changes to GitHub.com may have been forgotten.
 
 ## Markdown
 
 *Create a bulleted list with at least 3 items*
+- Pineapple
+- Mango
+- Kiwi
 
 *Write a single paragraph that demonstrates the use of italics, bold, bold italics, code, and includes a link. The paragraph does not have to make sense.*
+
 
 *Create a level 3 heading*
 
