@@ -5,7 +5,7 @@ Due: September 6, 2023
 
 ## Git, GitHub
 
-*What is the URL of the GitHub repo that you created in your personal account?*
+*What is the URL of the GitHub repo that you created in your personal account?*\
 https://github.com/jenahparman/CS625
    
 *In which direction does the 'pull' command work (send local changes to remote OR send remote changes to local)?*\
@@ -32,15 +32,18 @@ Pushing changes to GitHub.com may have been forgotten.
 
 ## Tableau
 
-*Insert your the image of your final bar chart here. Reminder, this should show data from a region other than the South.*
+*Insert your the image of your final bar chart here. Reminder, this should show data from a region other than the South.*\
+<img src="Sales-in-the-West.png" height="500" alt="Sales in the West">
 
 ## Google Colab
 
-*What is the URL of your Google Colab notebook?*
+*What is the URL of your Google Colab notebook?*\
+https://colab.research.google.com/drive/1InpesLqQwBsSt9UBTslAY9jZLqWDbmX8?usp=sharing
 
 ## Python/Seaborn
 
 *Insert the first penguin chart here*
+
 
 *Describe what the figure is showing.*
 
