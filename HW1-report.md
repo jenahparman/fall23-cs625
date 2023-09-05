@@ -54,7 +54,8 @@ This figure shows penguins' bill depth and bill length. It helps visualize the d
 *Describe what the figure is showing.*\
 This figure shows the mean body mass of each penguin species sampled.
 
-*What happened when you removed the outer parentheses from the code? Why?*
+*What happened when you removed the outer parentheses from the code? Why?*\
+There is a syntax error when the outer parenthesis are removed. This is because the function call is wrapped over multiple lines.
 
 ## Observable and Vega-Lite
 
