@@ -47,7 +47,7 @@ https://colab.research.google.com/drive/1InpesLqQwBsSt9UBTslAY9jZLqWDbmX8?usp=sh
 <img src="figure1.png" height="500" alt="penguin bill depth vs bill length">
 
 *Describe what the figure is showing.*\
-This figure shows penguins' bill depth and bill length. It helps visualize the distribution of bill depth-to-length ratio among sampled penguins.
+This figure shows penguins' bill depth and bill length. It helps visualize the correlation of bill depth and length among sampled penguins.
 
 *Insert the second penguin chart here*\
 <img src="figure2.png" height="500" alt="penguin species, body mass">
