@@ -25,8 +25,10 @@ Pushing changes to GitHub.com may have been forgotten.
 
 
 *Create a level 3 heading*
+### Level 3 Heading
 
 *Insert an image of an animal, sized appropriately*
+
 
 ## Tableau
 
