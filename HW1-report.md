@@ -1,6 +1,6 @@
 # HW 1 - CS 625, Fall 2023
 
-Jenah Parman
+Jenah Parman\
 Due: September 6, 2023
 
 ## Git, GitHub
