@@ -16,14 +16,29 @@ I started by using *Text facet* on the pet type column to see all the unique val
 I was able to join several instances of misspellings or variations or  "Dog", "Cat", "Hamster", "Guinea Pig", etc.. I tried all of the different *Keying functions*, and was able to go from 83 unique values to 53 on the first round of clustering.
 
 <p align="center">
-<img src="HW2-screenshots/screenshot0.png" width="800" alt="text faceting pet kind">
+<img src="HW2-screenshots/screenshot0.png" width="1000" alt="text faceting pet kind">
 <br/><br/>
-<img src="HW2-screenshots/screenshot63.png" width="800" alt="clustering pet kind">
+<img src="HW2-screenshots/screenshot63.png" width="1000" alt="clustering pet kind">
 </p>
+<br/>
+
+### Dealing with Multi-Valued Cells
 
 After inspecting the different unique values remaining, I noticed a row with multiple pets in one. I decided to find out if there were more of these instances and handle them before continuing.
 I added a *Text filter* to the pet type column and searched for any entries that contained ",", ";" " and ", "&". I flagged the ones that seemed like they represented more than one pet. Then, I considered the possibility of respondents who have multiples on the same type of pet. I used a *Text filter* on the pet name column and followed the same search technique as before. I ended up finding four entries that represented more than one pet.
 
 <p align="center">
-<img src="HW2-screenshots/screenshot45.png" width="800" alt="text faceting pet kind">
+<img src="HW2-screenshots/screenshot45.png" width="1000" alt="text faceting pet kind">
+</p>
+
+To fix this, I seperated each pet attribute in the columns with a ";". Then, I used the *Split multi-valued cells* feature with a seperator, ";" giving each pet its own row.
+
+<p align="center">
+<img src="HW2-screenshots/screenshot50.png" width="1000" alt="text faceting pet kind">
+</p>
+
+I could not get the pet kind column to agree with the newly created rows for the different pets, so I had to manually enter in this column.
+
+<p align="center">
+<img src="HW2-screenshots/screenshot51.png" width="1000" alt="text faceting pet kind">
 </p>
