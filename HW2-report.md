@@ -20,3 +20,10 @@ I was able to join several instances of misspellings or variations or  "Dog", "C
 <br/><br/>
 <img src="HW2-screenshots/screenshot63.png" width="800" alt="clustering pet kind">
 </p>
+
+After inspecting the different unique values remaining, I noticed a row with multiple pets in one. I decided to find out if there were more of these instances and handle them before continuing.
+I added a *Text filter* to the pet type column and searched for any entries that contained ",", ";" " and ", "&". I flagged the ones that seemed like they represented more than one pet. Then, I considered the possibility of respondents who have multiples on the same type of pet. I used a *Text filter* on the pet name column and followed the same search technique as before. I ended up finding four entries that represented more than one pet.
+
+<p align="center">
+<img src="HW2-screenshots/screenshot45.png" width="800" alt="text faceting pet kind">
+</p>
