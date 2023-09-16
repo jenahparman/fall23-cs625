@@ -171,7 +171,7 @@ I followed a similar technique for cleaning up the list of dog breeds. By first 
 <img src="HW2-screenshots/screenshot33.png" width="1000" alt="clustering dog breeds">
 </p>
 
-I noticed there were several mixed-breed dogs, so similarly to what I did for cat breeds, I created a "Mix" category. I then added a *Text filter* and searched for any instance of the word "mix" and changed these values using a cell *Transform* to say "Mix".
+I noticed there were several mixed-breed dogs, so similarly to what I did for cat breeds, I created a "Mix" category. I then added a *Text filter* and searched for any instance of the word "mix" and changed these values using a cell *Transform* to say "Mix". I also did the same for any values that contained "mutt" or "cross".
 
 <p align="center">
 <img src="HW2-screenshots/screenshot34.png" width="1000" alt="mix category">
@@ -179,7 +179,67 @@ I noticed there were several mixed-breed dogs, so similarly to what I did for ca
 
 I cross-referenced the AKC (American Kennel Club) and UKC (United Kennel Club) list of dog breeds with my list of unique values, and for any that weren't listed and seemed like a mixed-breed (e.g., Goldendoodle, Yorkiepoo, Labradoodle, etc.), I performed a cell *Transform* to make these "Mix".
 
+I narrowed the list of unique values down by maually tweaking a few things to line up with the AKC and UKC lists, and then clustering again. I repeated this a few times until I got a list that I was happy with.
 
+### Cleaning the "Pet's Age" Column
+
+There are two questions regarding pet's age, so I started working with this column next. I noticed these questions had involved sorting the ages by their numberical value, so I decided to try to get this column to exclusively numbers.
+
+My thought process went like this: It appeared that most of the pets were over a year old, and when discussing age, humans typically refer to years unless talking about a newborn. Anything less than 12 months doesn't seem like a significant amount of time, so I decided to consider anything younger than one year old as 0. I aimed to simplify this to whole numbers (integers). In human age, we usually don't say, "I'm 23 years and 10 months old"; we simply say, "I'm 23." So, I rounded down (floored) any age that was expressed as a float or fraction. Additionally, a significant number of pets didn't specify their age in months or fractions of a year. To ensure consistency and impartiality, I opted to convert all ages into integers rounded down. Also, if there was an entry that mentioned more than one age or a range or ages, I went with the lowest value. For any deceased pet's, I used an empty string.
+
+I started by applying a *Text filter* on the pet age column. I searched for "y", hoping to gather anyone who may have listed any variation of the word "years" or "years old". I flagged any records that had a "y" in it, but was not referring to years. Then, I filtered by values NOT flagged. I then used a GREL expression: `value.replace("years","").replace("year","").replace("yrs","").replace("y","").replace("YO","").replace("yo","")` to try to get rid of any text.
+
+<p align="center">
+<img src="HW2-screenshots/screenshot18.png" width="1000" alt="GREL expression to remove years text">
+</p>
+
+I repeated these steps for months, but this time the goal was to change these to values to "0". I first filtered for "m", flagging any values that either greater than 12 months or weren't related.
+
+<p align="center">
+<img src="HW2-screenshots/screenshot19.png" width="1000" alt="GREL expression to remove years text">
+</p>
+
+I filtered by NOT flagged values, and used a cell *Transform* to change these values to "0".
+
+<p align="center">
+<img src="HW2-screenshots/screenshot20.png" width="1000" alt="GREL expression to remove years text">
+</p>
+
+<p align="center">
+<img src="HW2-screenshots/screenshot21.png" width="1000" alt="GREL expression to remove years text">
+</p>
+
+Then, I filtered by flagged values, and changed these to "1".
+
+<p align="center">
+<img src="HW2-screenshots/screenshot22.png" width="1000" alt="GREL expression to remove years text">
+</p>
+
+I repeated these steps for weeks, using "w" to filter.
+
+<p align="center">
+<img src="HW2-screenshots/screenshot24.png" width="1000" alt="GREL expression to remove years text">
+</p>
+
+Now I was left with 66 out of 1783 non-numeric values. I performed a GREL expression in an attempt to remove any extraneous text.
+
+<p align="center">
+<img src="HW2-screenshots/screenshot25.png" width="1000" alt="GREL expression to remove years text">
+</p>
+
+<p align="center">
+<img src="HW2-screenshots/screenshot26.png" width="1000" alt="GREL expression to remove years text">
+</p>
+
+This fixed most of them, but I ended up having to go in and manually edit a few.
+
+<p align="center">
+<img src="HW2-screenshots/screenshot28.png" width="1000" alt="GREL expression to remove years text">
+</p>
+
+<p align="center">
+<img src="HW2-screenshots/screenshot29.png" width="1000" alt="GREL expression to remove years text">
+</p>
 
 
 
