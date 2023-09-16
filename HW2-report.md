@@ -102,21 +102,41 @@ This helped get ride of the leftover punctuation from the entries containing "Ot
 A few entries listed the pet name as it's kind. I was able to figure out that these were all dogs by looking at the breed. I used a *Transform* to make these all say "Dog", while ensuring that the pet name was in the right place.
 
 <p align="center">
-<img src="HW2-screenshots/screenshot1.png" width="1000" alt="clustering pet kind again">
+<img src="HW2-screenshots/screenshot1.png" width="1000" alt="dog names to dog">
 </p>
 
 After doing some research, I found out that geckos are lizards and all tortoises are turtles (but not all turtles are tortoises.) I wanted to narrow my list of unique values down more, so I decided to consolidate these by using a *Text filter*, searching for "gecko" and "tortoise", and using a cell *Transform* to change them to "Lizard" and "Turtle". I made sure to indicate the more specific animal type in the pet breed category before making the change. I repeated the same steps for any "goldfish" or "betta fish", simply changing these to "Fish" but mentioning the specificities in the breed column. I had a hard time deciding whether I should solidate the two chicken entries with the "Bird" category, but I ended up doing so. I noticed that the list had only two different kinds of insects (Bees and Spiney Leaf Insect), so I joined these under one "Insect" category.
 
 <p align="center">
-<img src="HW2-screenshots/screenshot5.png" width="1000" alt="clustering pet kind again">
+<img src="HW2-screenshots/screenshot5.png" width="1000" alt="consolidating pet kinds">
 </p>
 
 I finally narrowed the list down to something I was satisfied with, containing unique values that I thought weren't too specific or too broad.
+
 <p align="center">
-<img src="HW2-screenshots/screenshot80.png" width="300" alt="clustering pet kind again">
+<img src="HW2-screenshots/screenshot80.png" width="300" alt="final list of pet kinds">
 </p>
 
 ### Cleaning the "Pet's Breed" Column
+
+Two of the questions ask about the pet's breed, more specifically, cat and dog breeds. This is where I decided to clean next.
+
+#### Cat Breeds
+
+I used a *Text facet* on the pet kind column and selected "Cats" to start working with just the cat breeds. I then applied another *Text facet* on the pet breed column.
+
+Starting with 143 unique values, I decided to *Cluster* first. 
+
+There were many variations of "Domestic [short,medium, or long]-hair", so I joined all of these under one spelling and format. I did the same for any "[Place of Origin] [short,medium, or long]-hair"s.
+
+<p align="center">
+<img src="HW2-screenshots/screenshot6.png" width="1000" alt="clustering pet kind again">
+</p>
+
+I had to do a lot of reading on cat breeds in comparison to cat coat and marking terminology. I also found it challenging to figure out how to classify the cats. *Should I only include breeds recognized by the CFA (Cat Fanciers' Association)? How should I handle mixed-breed cats? What even is a Domestic short-hair?*
+
+I decided that I would remove any values in the pet breed column that solely listed a cat's coat color/marking name (e.g., Tabby, Calico, Tuxedo, Black, etc.). However, if it contained a cat coat color/marking AND "[short,medium, or long]-hair", then I would change these to "Domestic [short,medium, or long]-hair". I decided that if it wasn't a CFA recognized breed, but it did contain hair length, then it was probably a "Domestic". It seems like "**Domestic** [short,medium, or long]-hair" is like the "mutt" of cats, having an unknown lineage. I also found out that Domestic short-hairs are called "Moggies" in England, so I changed every instance of "Moggy" to "Domestic short-hair".
+
 
 
 
