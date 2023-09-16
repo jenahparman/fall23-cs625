@@ -14,13 +14,14 @@ This report provides an overview of the steps I took to clean the PetNames.tsv d
 I started by using *Text facet* on the pet type column to see all the unique values and their frequencies.
 
 Upon inspecting the different unique values, I noticed a row with multiple pets in one. I decided to find out if there were more of these instances and handle them before continuing.
-I added a *Text filter* to the pet type column and searched for any entries that contained ",", ";" " and ", and "&". I flagged the ones that seemed like they represented more than one pet. Then, I considered the possibility of respondents who have multiples on the same type of pet. I used a *Text filter* on the pet name column and followed the same search technique as before. I ended up finding four entries that represented more than one pet.
+
+I added a *Text filter* to the pet type column and searched for any entries that contained ",", ";", " and ", or "&". I flagged the ones that seemed like they represented more than one pet. Then, I considered the possibility of respondents who have more than one of the same kind of pet. I used a *Text filter* on the pet name column, searched for ",", ";", " and ", or "&" again, and flagged any conspicuous rows. I ended up finding four entries that represented more than one pet.
 
 <p align="center">
 <img src="HW2-screenshots/screenshot45.png" width="1000" alt="multi-valued cells">
 </p>
 
-To fix this, I seperated each pet attribute in the columns with a ";". Then, I used the *Split multi-valued cells* feature with a seperator, ";" giving each pet its own row.
+To fix this, I seperated each pet attribute in the columns with a ";". Then, I used the *Split multi-valued cells* feature with the *Seperator* set to ";", giving each pet its own row.
 
 <p align="center">
 <img src="HW2-screenshots/screenshot50.png" width="1000" alt="multi-valued cells split incomplete">
@@ -33,6 +34,10 @@ I could not get the pet kind column to agree with the newly created rows for the
 </p>
 
 I assumed that this disagreement of populating existing rows had something to do with the first column being tied to the ID number. It seemed like the newly created rows were almost "sub-rows" of the originals, i.e., they did not have their own ID number. I thought that this seemed OK at first, but then I realized that this was affecting the overall count of items. In an attempt to mitigate this situation, I exported the file and then re-uploaded it to Open Refine. This ended up giving each row its own ID number and upped the count to match the new items. Problem solved.
+
+<p align="center">
+<img src="HW2-screenshots/screenshot53.png" width="1000" alt="new rows with ID numbers">
+</p>
 
 ### Cleaning the "What Kind of Pet" Column
 
@@ -99,6 +104,7 @@ A few entries listed the pet name as it's kind. I was able to figure out that th
 <p align="center">
 <img src="HW2-screenshots/screenshot1.png" width="1000" alt="clustering pet kind again">
 </p>
+
 
 
 
