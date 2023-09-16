@@ -214,6 +214,9 @@ Then, I filtered by flagged values, and changed these to "1".
 <p align="center">
 <img src="HW2-screenshots/screenshot22.png" width="1000" alt="GREL expression to remove years text">
 </p>
+<p align="center">
+<img src="HW2-screenshots/screenshot24.png" width="1000" alt="GREL expression to remove years text">
+</p>
 
 I repeated these steps for weeks, using "w" to filter.
 
@@ -240,6 +243,31 @@ This fixed most of them, but I ended up having to go in and manually edit a few.
 <p align="center">
 <img src="HW2-screenshots/screenshot29.png" width="1000" alt="GREL expression to remove years text">
 </p>
+
+Finally, I transformed the age column into only numbers with no text.
+
+<p align="center">
+<img src="HW2-screenshots/screenshot30.png" width="1000" alt="GREL expression to remove years text">
+</p>
+
+I then used a GREL expression to floor the ages. This wasn't absolutely neccessary to answer the questions, but I still completed this step for uniformity.
+
+<p align="center">
+<img src="HW2-screenshots/screenshot32.png" width="1000" alt="GREL expression to remove years text">
+</p>
+
+### Cleaning the Pet's Names Columns
+
+I wasn't too scrutinous with the name columns because anything can be a name, and names are spelt all different kinds of ways. I just performed some clustering to catch any variations in capitilization, punctuation, or spaces.
+
+<p align="center">
+<img src="HW2-screenshots/screenshot35.png" width="1000" alt="GREL expression to remove years text">
+</p>
+
+<p align="center">
+<img src="HW2-screenshots/screenshot36.png" width="1000" alt="GREL expression to remove years text">
+</p>
+
 
 
 
