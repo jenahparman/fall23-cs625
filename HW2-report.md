@@ -125,17 +125,65 @@ Two of the questions ask about the pet's breed, more specifically, cat and dog b
 
 I used a *Text facet* on the pet kind column and selected "Cats" to start working with just the cat breeds. I then applied another *Text facet* on the pet breed column.
 
-Starting with 143 unique values, I decided to *Cluster* first. 
+Starting with 143 unique values, I decided to *Cluster* first, trying all of the *Keying functions*. 
 
 There were many variations of "Domestic [short,medium, or long]-hair", so I joined all of these under one spelling and format. I did the same for any "[Place of Origin] [short,medium, or long]-hair"s.
 
 <p align="center">
-<img src="HW2-screenshots/screenshot6.png" width="1000" alt="clustering pet kind again">
+<img src="HW2-screenshots/screenshot6.png" width="1000" alt="cat breed cluster">
 </p>
 
 I had to do a lot of reading on cat breeds in comparison to cat coat and marking terminology. I also found it challenging to figure out how to classify the cats. *Should I only include breeds recognized by the CFA (Cat Fanciers' Association)? How should I handle mixed-breed cats? What even is a Domestic short-hair?*
 
 I decided that I would remove any values in the pet breed column that solely listed a cat's coat color/marking name (e.g., Tabby, Calico, Tuxedo, Black, etc.). However, if it contained a cat coat color/marking AND "[short,medium, or long]-hair", then I would change these to "Domestic [short,medium, or long]-hair". I decided that if it wasn't a CFA recognized breed, but it did contain hair length, then it was probably a "Domestic". It seems like "**Domestic** [short,medium, or long]-hair" is like the "mutt" of cats, having an unknown lineage. I also found out that Domestic short-hairs are called "Moggies" in England, so I changed every instance of "Moggy" to "Domestic short-hair". 
+
+I removed the values that were only coat color/marking name by applying a *Text filter* and searching for the color/marking name, while flagging any values that contained additional info hinting at a breed.
+
+<p align="center">
+<img src="HW2-screenshots/screenshot12.png" width="1000" alt="filtering tuxedo cat">
+</p>
+
+Then, I applied a *Flag facet*, filtered by *False*, and performed a cell *Transform*, just changing these values to an empty string.
+
+<p align="center">
+<img src="HW2-screenshots/screenshot13.png" width="1000" alt="replacing with empty string">
+</p>
+
+I then filtered by *True*, i.e., the flagged values, and performed a cell *transform* to make these say their breed.
+
+<p align="center">
+<img src="HW2-screenshots/screenshot14.png" width="1000" alt="changing values to cat breed">
+</p>
+
+I repeated these steps for remaining cat color coats/markings. For any "Part [cat breed]" or "[cat breed] Mix", I put under one category called "Mix". Lynx Point Siamese was a tricky one because it seems like it would be a type of Siamese. After doing some research, it seems that it is classified in many different ways, but they are bred from a Siamese and a tabby cat, so I just placed this in the "Mix" category.
+
+These steps got my list of cat breeds down to something manageable with true unique values.
+
+<p align="center">
+<img src="HW2-screenshots/screenshot17.png" width="300" alt="cat breed cleaned list">
+</p>
+
+#### Dog Breeds
+
+I followed a similar technique for cleaning up the list of dog breeds. By first applying a *Text Facet* for both pet kind (dog selected) and pet breed, I was able to narrow the messy list down significantly by using *Cluster* and trying all *keying functions*.
+
+<p align="center">
+<img src="HW2-screenshots/screenshot33.png" width="1000" alt="clustering dog breeds">
+</p>
+
+I noticed there were several mixed-breed dogs, so similarly to what I did for cat breeds, I created a "Mix" category. I then added a *Text filter* and searched for any instance of the word "mix" and changed these values using a cell *Transform* to say "Mix".
+
+<p align="center">
+<img src="HW2-screenshots/screenshot34.png" width="1000" alt="mix category">
+</p>
+
+I cross-referenced the AKC (American Kennel Club) and UKC (United Kennel Club) list of dog breeds with my list of unique values, and for any that weren't listed and seemed like a mixed-breed (e.g., Goldendoodle, Yorkiepoo, Labradoodle, etc.), I performed a cell *Transform* to make these "Mix".
+
+
+
+
+
+
 
 
 
