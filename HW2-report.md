@@ -105,6 +105,20 @@ A few entries listed the pet name as it's kind. I was able to figure out that th
 <img src="HW2-screenshots/screenshot1.png" width="1000" alt="clustering pet kind again">
 </p>
 
+After doing some research, I found out that geckos are lizards and all tortoises are turtles (but not all turtles are tortoises.) I wanted to narrow my list of unique values down more, so I decided to consolidate these by using a *Text filter*, searching for "gecko" and "tortoise", and using a cell *Transform* to change them to "Lizard" and "Turtle". I made sure to indicate the more specific animal type in the pet breed category before making the change. I repeated the same steps for any "goldfish" or "betta fish", simply changing these to "Fish" but mentioning the specificities in the breed column. I had a hard time deciding whether I should solidate the two chicken entries with the "Bird" category, but I ended up doing so. I noticed that the list had only two different kinds of insects (Bees and Spiney Leaf Insect), so I joined these under one "Insect" category.
+
+<p align="center">
+<img src="HW2-screenshots/screenshot5.png" width="1000" alt="clustering pet kind again">
+</p>
+
+I finally narrowed the list down to something I was satisfied with, containing unique values that I thought weren't too specific or too broad.
+<p align="center">
+<img src="HW2-screenshots/screenshot80.png" width="300" alt="clustering pet kind again">
+</p>
+
+### Cleaning the "Pet's Breed" Column
+
+
 
 
 
