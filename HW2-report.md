@@ -5,7 +5,7 @@ Due: September 20, 2023
 
 ## Introduction
 
-This report will guide you through the steps I took to clean the PetNames.tsv dataset for analysis. The survey was iniated on July 21, 2019 on Twitter by Dr. Jen Golbeck, and it collected information about people's pets, including the type of pet, the pet's full name (excluding the owner's last name), the pet's everyday name, age, and breed. Interestingly, the main goal of gathering this data was to create a messy dataset intentionally for practicing data cleaning. Now, let's dive into the steps I took to accomplish this goal.
+This report provides an overview of the steps I took to clean the PetNames.tsv dataset for analysis. The survey was iniated on July 21, 2019 on Twitter by Dr. Jen Golbeck, and it collected information about people's pets, including the type of pet, the pet's full name (excluding the owner's last name), the pet's everyday name, age, and breed. Interestingly, the main goal of gathering this data was to create a messy dataset intentionally for practicing data cleaning. In the following sections are the steps I took to accomplish this goal.
 
 ## Data Cleaning Process
 
@@ -58,14 +58,11 @@ After inspecting the remaining unique values in the *Text facet*, I manually rem
 
 I also handled things that stuck out to me as "*definitely not a pet*" but probably a typo:
 
-<p align="center">
-<img src="HW2-screenshots/screenshot55.png" width="1000" alt="cat pet typo">
-</p>
-<p align="center">
-<img src="HW2-screenshots/screenshot56.png" width="1000" alt="dog pet typo">
+<p float="left">
+<img src="HW2-screenshots/screenshot55.png" width="499" alt="cat pet typo">
+<img src="HW2-screenshots/screenshot56.png" width="499" alt="dog pet typo">
 </p>
 <br/>
-
 
 When sorting the *Text facet* by count, I noticed a lot of respondents simply typed "Other", probably because of the nature of the question-- "What kind of pet is this (Dog, Cat, Bird, Other)". Respondents may have assumed that if it wasn't one of the first three mentioned to enter "Other". I wanted to see if the pet breed column gave any dead giveaways, and it did! I was able to figure out almost all of them from information provided by the breed column, so I manually entered these.
 
