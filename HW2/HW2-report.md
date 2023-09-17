@@ -270,6 +270,11 @@ I wasn't too scrutinous with the name columns because anything can be a name, an
 <img src="/HW2/Resources/screenshot36.png" width="1000" alt="clustering pet's everyday name">
 </p>
 
+***
+
+* [Cleaned Pet Names CSV File](/HW2/Resources/HW2-petnames.csv)
+* [JSON Scripts of All Operations Performed](HW2-petnames.json)
+
 ## II. Analyzing Cleaned Data
 
 Now that the data has been cleaned, I can answer the following questions:
@@ -310,13 +315,13 @@ The number one dog breed was a mix of some sort with <ins>433 mixed-breed dogs</
 * Combining and Splitting Cells - OpenRefine - Subject & Research Guides at Connecticut College, https://conncoll.libguides.com/c.php?g=1125377&p=8209665
 * General Refine Expression Language | OpenRefine, https://openrefine.org/docs/manual/grel
 
-[^1]: https://www.zillarules.com/pet-type/lizards-geckos#:~:text=Yes%2C%20geckos%20are%20lizards!%20What%20differentiates%20geckos%20from%20the%20group%20of%20lizards%20is%20that%20they%20lay%20eggs%20in%20pairs%20instead%20of%20large%20clutches%2C%20and%20they%20have%20the%20ability%20to%20vocalize%20with%20chirps%20and%20barking%20noises.%20Most%20geckos%20also%20lack%20eyelids%20and%20have%20sticky%20toes%20that%20enable%20them%20to%20climb%20walls.
-[^2]: https://www.britannica.com/story/whats-the-difference-between-a-turtle-and-a-tortoise#:~:text=All%20tortoises%20are%20in%20fact%20turtles%E2%80%94that%20is%2C%20they%20belong%20to%20the%20order%20Testudines%20or%20Chelonia%2C%20reptiles%20having%20bodies%20encased%20in%20a%20bony%20shell%E2%80%94but%20not%20all%20turtles%20are%20tortoises.
-[^3]: https://www.aspcapetinsurance.com/resources/domestic-shorthair-cat-facts/#:~:text=Domestic%20Shorthair%2C%20or%20%E2%80%9Cmoggie%E2%80%9D%20in%20the%20United%20Kingdom%2C%20does%20not%20refer%20to%20an%20actual%20breed.%20These%20cats%20have%20mixed%20ancestry%2C%20which%20can%20vary%20from%20cat%20to%20cat%2C%20not%20unlike%20Mixed%20Breed%20dogs%20or%20%E2%80%9Cmutts.%E2%80%9D
-[^4]: https://cfa.org/kids/breeds-and-colors/cfa-breeds/
-[^5]: https://web.archive.org/web/20130903060111/http://www.americanhumane.org/assets/pdfs/pets-fact-sheet.pdf
-[^6]: https://www.akc.org/dog-breeds/
-[^7]: https://www.ukcdogs.com/docs/showforms/breed-abbreviations.pdf
+[^1]: Lizard & Gecko Facts, https://www.zillarules.com/pet-type/lizards-geckos#:~:text=Yes%2C%20geckos%20are%20lizards!%20What%20differentiates%20geckos%20from%20the%20group%20of%20lizards%20is%20that%20they%20lay%20eggs%20in%20pairs%20instead%20of%20large%20clutches%2C%20and%20they%20have%20the%20ability%20to%20vocalize%20with%20chirps%20and%20barking%20noises.%20Most%20geckos%20also%20lack%20eyelids%20and%20have%20sticky%20toes%20that%20enable%20them%20to%20climb%20walls.
+[^2]: What’s the Difference Between a Turtle and a Tortoise? | Britannica, https://www.britannica.com/story/whats-the-difference-between-a-turtle-and-a-tortoise#:~:text=All%20tortoises%20are%20in%20fact%20turtles%E2%80%94that%20is%2C%20they%20belong%20to%20the%20order%20Testudines%20or%20Chelonia%2C%20reptiles%20having%20bodies%20encased%20in%20a%20bony%20shell%E2%80%94but%20not%20all%20turtles%20are%20tortoises.
+[^3]: Domestic Shorthair Cat Facts | ASPCA Pet Health Insurance, https://www.aspcapetinsurance.com/resources/domestic-shorthair-cat-facts/#:~:text=Domestic%20Shorthair%2C%20or%20%E2%80%9Cmoggie%E2%80%9D%20in%20the%20United%20Kingdom%2C%20does%20not%20refer%20to%20an%20actual%20breed.%20These%20cats%20have%20mixed%20ancestry%2C%20which%20can%20vary%20from%20cat%20to%20cat%2C%20not%20unlike%20Mixed%20Breed%20dogs%20or%20%E2%80%9Cmutts.%E2%80%9D
+[^4]: CFA Breeds – For Kids… About Cats, https://cfa.org/kids/breeds-and-colors/cfa-breeds/
+[^5]: U.S. Pet (Dog and Cat) Population Fact Sheet, American Humane Association, https://web.archive.org/web/20130903060111/http://www.americanhumane.org/assets/pdfs/pets-fact-sheet.pdf
+[^6]: Dog Breeds - Types Of Dogs - American Kennel Club, https://www.akc.org/dog-breeds/
+[^7]: Recognized Breeds | United Kennel Club, https://www.ukcdogs.com/docs/showforms/breed-abbreviations.pdf
 
 
 
