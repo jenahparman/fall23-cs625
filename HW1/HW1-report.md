@@ -29,7 +29,7 @@ The girl was reading a book called ***The Self-Taught Programmer:*** *The Defini
 ### Level 3 Heading
 
 *Insert an image of an animal, sized appropriately*\
-<img src="HW1/Resources/otto.jpeg" height="500" alt="Otto, the cat">
+<img src="Resources/otto.jpeg" height="500" alt="Otto, the cat">
 
 ## Tableau
 
