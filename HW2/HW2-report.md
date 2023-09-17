@@ -314,6 +314,9 @@ The number one dog breed was a mix of some sort with <ins>433 mixed-breed dogs</
 
 * Combining and Splitting Cells - OpenRefine - Subject & Research Guides at Connecticut College, https://conncoll.libguides.com/c.php?g=1125377&p=8209665
 * General Refine Expression Language | OpenRefine, https://openrefine.org/docs/manual/grel
+* The Ultimate Guide to Cat Fur Patterns, Colors and Markings, https://basepaws.com/blog/the-ultimate-guide-to-cat-fur-patterns-colors-and-markings
+* What is a Lynx Point Siamese Cat?, https://www.siamesecatspot.com/lynx-and-tortie-point-siamese-cats/#:~:text=Lynx%20point%20Siamese%20cats%20(Or,part%20of%20the%20Siamese%20breed.
+* 
 
 [^1]: Lizard & Gecko Facts, https://www.zillarules.com/pet-type/lizards-geckos#:~:text=Yes%2C%20geckos%20are%20lizards!%20What%20differentiates%20geckos%20from%20the%20group%20of%20lizards%20is%20that%20they%20lay%20eggs%20in%20pairs%20instead%20of%20large%20clutches%2C%20and%20they%20have%20the%20ability%20to%20vocalize%20with%20chirps%20and%20barking%20noises.%20Most%20geckos%20also%20lack%20eyelids%20and%20have%20sticky%20toes%20that%20enable%20them%20to%20climb%20walls.
 [^2]: What’s the Difference Between a Turtle and a Tortoise? | Britannica, https://www.britannica.com/story/whats-the-difference-between-a-turtle-and-a-tortoise#:~:text=All%20tortoises%20are%20in%20fact%20turtles%E2%80%94that%20is%2C%20they%20belong%20to%20the%20order%20Testudines%20or%20Chelonia%2C%20reptiles%20having%20bodies%20encased%20in%20a%20bony%20shell%E2%80%94but%20not%20all%20turtles%20are%20tortoises.
