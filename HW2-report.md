@@ -89,7 +89,7 @@ Then, I used a *Text filter* to find any instances of "kitty", "kitten", "kitty 
 <img src="HW2-screenshots/screenshot60.png" width="1000" alt="kit to cat">
 </p>
 
-Then, I did for "puppy", "puppy dog", etc., and changed those to "Dog".  
+Then, I did for "puppy", "puppy dog", etc. and changed those to "Dog".  
 
 After narrowing the unique values down to 40, I used *Cluster* again.
 
@@ -105,7 +105,9 @@ A few entries listed the pet name as it's kind. I was able to figure out that th
 <img src="HW2-screenshots/screenshot1.png" width="1000" alt="dog names to dog">
 </p>
 
-After doing some research, I found out that geckos are lizards and all tortoises are turtles (but not all turtles are tortoises.) I wanted to narrow my list of unique values down more, so I decided to consolidate these by using a *Text filter*, searching for "gecko" and "tortoise", and using a cell *Transform* to change them to "Lizard" and "Turtle". I made sure to indicate the more specific animal type in the pet breed category before making the change. I repeated the same steps for any "goldfish" or "betta fish", simply changing these to "Fish" but mentioning the specificities in the breed column. I had a hard time deciding whether I should solidate the two chicken entries with the "Bird" category, but I ended up doing so. I noticed that the list had only two different kinds of insects (Bees and Spiney Leaf Insect), so I joined these under one "Insect" category.
+After doing some research, I found out that geckos are lizards and all tortoises are turtles (but not all turtles are tortoises.) I wanted to narrow my list of unique values down more, so I decided to consolidate these by using a *Text filter*, searching for "gecko" and "tortoise", and using a cell *Transform* to change any instances to "Lizard" and "Turtle". I made sure to indicate the more specific animal type in the pet breed column before making the change. 
+
+I repeated the same steps for any "goldfish" or "betta fish", simply changing these to "Fish" but mentioning the specificities in the breed column. I had a hard time deciding whether I should consolidate the two chicken entries with the "Bird" category, but I ended up doing so. I noticed that the list had only two different kinds of insects (Bees and Spiney Leaf Insect), so I joined these under one "Insect" category.
 
 <p align="center">
 <img src="HW2-screenshots/screenshot5.png" width="1000" alt="consolidating pet kinds">
@@ -196,64 +198,64 @@ I started by applying a *Text filter* on the pet age column. I searched for "y",
 I repeated these steps for months, but this time the goal was to change these to values to "0". I first filtered for "m", flagging any values that either greater than 12 months or weren't related.
 
 <p align="center">
-<img src="HW2-screenshots/screenshot19.png" width="1000" alt="GREL expression to remove years text">
+<img src="HW2-screenshots/screenshot19.png" width="1000" alt="pets age filtered">
 </p>
 
 I filtered by NOT flagged values, and used a cell *Transform* to change these values to "0".
 
 <p align="center">
-<img src="HW2-screenshots/screenshot20.png" width="1000" alt="GREL expression to remove years text">
+<img src="HW2-screenshots/screenshot20.png" width="1000" alt="pets age filtered">
 </p>
 
 <p align="center">
-<img src="HW2-screenshots/screenshot21.png" width="1000" alt="GREL expression to remove years text">
+<img src="HW2-screenshots/screenshot21.png" width="1000" alt="transforming cells based on age">
 </p>
 
 Then, I filtered by flagged values, and changed these to "1".
 
 <p align="center">
-<img src="HW2-screenshots/screenshot22.png" width="1000" alt="GREL expression to remove years text">
+<img src="HW2-screenshots/screenshot22.png" width="1000" alt="GREL pets filtered by age">
 </p>
 <p align="center">
-<img src="HW2-screenshots/screenshot24.png" width="1000" alt="GREL expression to remove years text">
+<img src="HW2-screenshots/screenshot23.png" width="1000" alt="transforming cells based on age">
 </p>
 
 I repeated these steps for weeks, using "w" to filter.
 
 <p align="center">
-<img src="HW2-screenshots/screenshot24.png" width="1000" alt="GREL expression to remove years text">
+<img src="HW2-screenshots/screenshot24.png" width="1000" alt="transforming cells based on age">
 </p>
 
 Now I was left with 66 out of 1783 non-numeric values. I performed a GREL expression in an attempt to remove any extraneous text.
 
 <p align="center">
-<img src="HW2-screenshots/screenshot25.png" width="1000" alt="GREL expression to remove years text">
+<img src="HW2-screenshots/screenshot25.png" width="1000" alt="remaining rows">
 </p>
 
 <p align="center">
-<img src="HW2-screenshots/screenshot26.png" width="1000" alt="GREL expression to remove years text">
+<img src="HW2-screenshots/screenshot26.png" width="1000" alt="GREL expression to remove text">
 </p>
 
 This fixed most of them, but I ended up having to go in and manually edit a few.
 
 <p align="center">
-<img src="HW2-screenshots/screenshot28.png" width="1000" alt="GREL expression to remove years text">
+<img src="HW2-screenshots/screenshot28.png" width="1000" alt="remaining rows">
 </p>
 
 <p align="center">
-<img src="HW2-screenshots/screenshot29.png" width="1000" alt="GREL expression to remove years text">
+<img src="HW2-screenshots/screenshot29.png" width="1000" alt="manually edited rows">
 </p>
 
 Finally, I transformed the age column into only numbers with no text.
 
 <p align="center">
-<img src="HW2-screenshots/screenshot30.png" width="1000" alt="GREL expression to remove years text">
+<img src="HW2-screenshots/screenshot30.png" width="1000" alt="numeric values in age column">
 </p>
 
 I then used a GREL expression to floor the ages. This wasn't absolutely neccessary to answer the questions, but I still completed this step for uniformity.
 
 <p align="center">
-<img src="HW2-screenshots/screenshot32.png" width="1000" alt="GREL expression to remove years text">
+<img src="HW2-screenshots/screenshot32.png" width="1000" alt="flooring age values">
 </p>
 
 ### Cleaning the Pet's Names Columns
@@ -261,11 +263,11 @@ I then used a GREL expression to floor the ages. This wasn't absolutely neccessa
 I wasn't too scrutinous with the name columns because anything can be a name, and names are spelt all different kinds of ways. I just performed some clustering to catch any variations in capitilization, punctuation, or spaces.
 
 <p align="center">
-<img src="HW2-screenshots/screenshot35.png" width="1000" alt="GREL expression to remove years text">
+<img src="HW2-screenshots/screenshot35.png" width="1000" alt="clustering pet's full name">
 </p>
 
 <p align="center">
-<img src="HW2-screenshots/screenshot36.png" width="1000" alt="GREL expression to remove years text">
+<img src="HW2-screenshots/screenshot36.png" width="1000" alt="clustering pet's everyday name">
 </p>
 
 
