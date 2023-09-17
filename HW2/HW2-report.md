@@ -7,7 +7,7 @@ Due: September 20, 2023
 
 This report provides an overview of the steps I took to clean the PetNames.tsv dataset for analysis. The survey was iniated on July 21, 2019 on Twitter by Dr. Jen Golbeck; it collected information about people's pets, including the type of pet, the pet's full name (excluding the owner's last name), the pet's everyday name, age, and breed. Interestingly, the main goal of gathering this data was to create a messy dataset intentionally for practicing data cleaning. In the following sections are the steps I took to accomplish this goal.
 
-## Data Cleaning Process
+## I. Data Cleaning Process
 
 ### Dealing with Multi-Valued Cells
 
@@ -105,7 +105,7 @@ A few entries listed the pet name as it's kind. I was able to figure out that th
 <img src="/HW2/Resources/screenshot1.png" width="1000" alt="dog names to dog">
 </p>
 
-After doing some research, I found out that geckos are lizards and all tortoises are turtles (but not all turtles are tortoises.) I wanted to narrow my list of unique values down more, so I decided to consolidate these by using a *Text filter*, searching for "gecko" and "tortoise", and using a cell *Transform* to change any instances to "Lizard" and "Turtle". I made sure to indicate the more specific animal type in the pet breed column before making the change. 
+After doing some research, I found out that geckos are lizards[^1] and all tortoises are turtles (but not all turtles are tortoises.)[^2] I wanted to narrow my list of unique values down more, so I decided to consolidate these by using a *Text filter*, searching for "gecko" and "tortoise", and using a cell *Transform* to change any instances to "Lizard" and "Turtle". I made sure to indicate the more specific animal type in the pet breed column before making the change. 
 
 I repeated the same steps for any "goldfish" or "betta fish", simply changing these to "Fish" but mentioning the specificities in the breed column. I had a hard time deciding whether I should consolidate the two chicken entries with the "Bird" category, but I ended up doing so. I noticed that the list had only two different kinds of insects (Bees and Spiney Leaf Insect), so I joined these under one "Insect" category.
 
@@ -137,7 +137,7 @@ There were many variations of "Domestic [short,medium, or long]-hair", so I join
 
 I had to do a lot of reading on cat breeds in comparison to cat coat and marking terminology. I also found it challenging to figure out how to classify the cats. *Should I only include breeds recognized by the CFA (Cat Fanciers' Association)? How should I handle mixed-breed cats? What even is a Domestic short-hair?*
 
-I decided that I would remove any values in the pet breed column that solely listed a cat's coat color/marking name (e.g., Tabby, Calico, Tuxedo, Black, etc.). However, if it contained a cat coat color/marking AND "[short,medium, or long]-hair", then I would change these to "Domestic [short,medium, or long]-hair". I decided that if it wasn't a CFA recognized breed, but it did contain hair length, then it was probably a "Domestic". It seems like "**Domestic** [short,medium, or long]-hair" is like the "mutt" of cats, having an unknown lineage. I also found out that Domestic short-hairs are called "Moggies" in England, so I changed every instance of "Moggy" to "Domestic short-hair". 
+I decided that I would remove any values in the pet breed column that solely listed a cat's coat color/marking name (e.g., Tabby, Calico, Tuxedo, Black, etc.). However, if it contained a cat coat color/marking AND "[short,medium, or long]-hair", then I would change these to "Domestic [short,medium, or long]-hair". I decided that if it wasn't a CFA recognized breed, but it did contain hair length, then it was probably a "Domestic". It seems like "**Domestic** [short,medium, or long]-hair" is like the "mutt" of cats, having an unknown lineage. I also found out that Domestic short-hairs are called "Moggies" in England, so I changed every instance of "Moggy" to "Domestic short-hair".[^3] 
 
 I removed the values that were only coat color/marking name by applying a *Text filter* and searching for the color/marking name, while flagging any values that contained additional info hinting at a breed.
 
@@ -269,6 +269,59 @@ I wasn't too scrutinous with the name columns because anything can be a name, an
 <p align="center">
 <img src="/HW2/Resources/screenshot36.png" width="1000" alt="clustering pet's everyday name">
 </p>
+
+## II. Analyzing Cleaned Data
+
+Now that the data has been cleaned, I can answer the following questions:
+
+***1. How many types (kinds) of pets are there?***\
+I found that there were <ins>23</ins> known types of pets. To find this, I used a combination of text faceting and clustering. There were also instances where I had to infer what the animal was by using the breed category. I removed any entries that were not an animal (e.g., virus, server, robot, cardboard poster, etc.). I also had to use judgement to decide which animals should be grouped together (e.g., putting Goldfish and Betta fish into one category).
+
+***2. How many cats?***\
+After cleaning up the "What kind of pet is this" column, it was easy to see, using a text facet, that <ins>501</ins> of the known pets were cats.
+
+***3. How many breeds of cats?***\
+Based on how I cleaned the cat breeds, I found that there were <ins>25</ins> different cat breeds; however, several of the cats' breeds were unknown. I used a combination of text facets, text filters, clustering, and manually editing to clean this column and arrive at 25. I also learned to differentiate between the terminology for cat fur color/markings and cat breeds. If only the cat's fur color/marking was mentioned, I did not consider these in the breed column. I consulted the Cat Fancier's Association for all other breeds.[^4]
+
+***4. What's the most popular cat breed? How many cats are in that breed?***\
+The most popular breed of cat was the <ins>Domestic short-hair</ins> with <ins>104</ins> cats. It is worth noting that for cases where only "short-hair" appeared in the breed column, I changed it to say "Domestic short-hair". (same for any medium- or long-hair entries). This decision was influenced by the fact that Domestic short-hairs are widely recognized as the common household cats in the United States[^5], often likened to "mutts." Therefore, when no specific place of origin (typically associated with purebred cats) was mentioned alongside "shorthair," it was assumed to be a domestic breed.
+
+***5.What's the age range of the cats?***\
+Cats ranged from <ins>less than 1 year to 24 years old.</ins> To streamline the data for better sorting accuracy, I used text faceting, clustering, and GREL expressions to eliminate unneccessary non-numeric text. Additionally, I aimed for simplicity and consistency by converting all age values into intergers. Rounding down to the nearest whole number was done to ensure uniformity, as many pet ownders may not have included months or fractions of years when reporting pet ages, even though they could have. After getting the list down to solely numeric integers, I transformed the column into numbers, rather than text, and sorted with smallest first to find the range.
+
+***6. What's the age range of the rabbits? (Don't forget to look for bunny, too.)***\
+Rabbits ranged from <ins>1 to 13 years old</ins>. After cleaning the pet age column (see process in previous answer), I used the text facet on the pet type column and selected "Rabbit" to find the age range.
+
+***7. What is the oldest pet? Give the pet's name, kind, and age.***\
+The oldest pet was <ins>Bruce Springsteen, a cat aged 24.</ins> After cleaning the pet age column (see process in answer to question 5), I was able to easily find the oldest pet by sorting entries by the pet age column.
+
+***8. What are the top 5 most popular dog breeds? List the breed and number.***\
+The number one dog breed was a mix of some sort with <ins>433 mixed-breed dogs</ins>. Following that was:
+<ins>1. Golden Retriever (171), 2. Labrador Retriever (93), 3. Cocker Spaniel (22), 4. Shih Tzu (22), and 5. Beagle (20)</ins>. I consulted the American Kennel Club[^6] and United Kennel Club[^7] to narrow my list down to recognized dog breeds. I also gave listed any mix as its own category, "Mix".
+
+***9. What's the most popular everyday name for a dog?***
+<ins>Daisy</ins> is the most popular everyday name for a dog. I used text faceting and clustering on this column. It's important to note that I didn't delve too deeply into scrutinizing variations in spelling and punctuation, recognizing that names can often have numerous different forms.
+
+***10. What's the most popular full name for any pet?***
+<ins>Sophie</ins> is the most popular full name for any pet. I used text faceting and clustering on this column. It's important to note that I didn't delve too deeply into scrutinizing variations in spelling and punctuation, recognizing that names can often have numerous different forms.
+
+# References
+
+* Combining and Splitting Cells - OpenRefine - Subject & Research Guides at Connecticut College, https://conncoll.libguides.com/c.php?g=1125377&p=8209665
+* General Refine Expression Language | OpenRefine, https://openrefine.org/docs/manual/grel
+
+[^1]: https://www.zillarules.com/pet-type/lizards-geckos#:~:text=Yes%2C%20geckos%20are%20lizards!%20What%20differentiates%20geckos%20from%20the%20group%20of%20lizards%20is%20that%20they%20lay%20eggs%20in%20pairs%20instead%20of%20large%20clutches%2C%20and%20they%20have%20the%20ability%20to%20vocalize%20with%20chirps%20and%20barking%20noises.%20Most%20geckos%20also%20lack%20eyelids%20and%20have%20sticky%20toes%20that%20enable%20them%20to%20climb%20walls.
+[^2]: https://www.britannica.com/story/whats-the-difference-between-a-turtle-and-a-tortoise#:~:text=All%20tortoises%20are%20in%20fact%20turtles%E2%80%94that%20is%2C%20they%20belong%20to%20the%20order%20Testudines%20or%20Chelonia%2C%20reptiles%20having%20bodies%20encased%20in%20a%20bony%20shell%E2%80%94but%20not%20all%20turtles%20are%20tortoises.
+[^3]: https://www.aspcapetinsurance.com/resources/domestic-shorthair-cat-facts/#:~:text=Domestic%20Shorthair%2C%20or%20%E2%80%9Cmoggie%E2%80%9D%20in%20the%20United%20Kingdom%2C%20does%20not%20refer%20to%20an%20actual%20breed.%20These%20cats%20have%20mixed%20ancestry%2C%20which%20can%20vary%20from%20cat%20to%20cat%2C%20not%20unlike%20Mixed%20Breed%20dogs%20or%20%E2%80%9Cmutts.%E2%80%9D
+[^4]: https://cfa.org/kids/breeds-and-colors/cfa-breeds/
+[^5]: https://web.archive.org/web/20130903060111/http://www.americanhumane.org/assets/pdfs/pets-fact-sheet.pdf
+[^6]: https://www.akc.org/dog-breeds/
+[^7]: https://www.ukcdogs.com/docs/showforms/breed-abbreviations.pdf
+
+
+
+
+
 
 
 
