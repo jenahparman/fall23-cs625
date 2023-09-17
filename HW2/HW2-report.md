@@ -273,7 +273,7 @@ I wasn't too scrutinous with the name columns because anything can be a name, an
 ***
 
 * [Cleaned Pet Names CSV File](/HW2/Resources/HW2-petnames.csv)
-* [JSON Scripts of All Operations Performed](HW2-petnames.json)
+* [JSON Scripts of All Operations Performed](/HW2/Resources/HW2-petnames.json)
 
 ## II. Analyzing Cleaned Data
 
