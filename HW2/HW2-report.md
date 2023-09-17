@@ -35,6 +35,8 @@ I could not get the pet kind column to agree with the newly created rows for the
 
 I assumed that this disagreement of populating existing rows had something to do with the first column being tied to the ID number. It seemed like the newly created rows were almost "sub-rows" of the originals, i.e., they did not have their own ID number. I thought that this seemed OK at first, but then I realized that this was affecting the overall count of items. In an attempt to mitigate this situation, I exported the file and then re-uploaded it to OpenRefine. This ended up giving each row its own ID number and upped the count to match the new items. Problem solved.
 
+In retrospect, I likely could have created a new column between the ID number and the pet kind column, performed the split on the pet kind column, and then deleted the new column instead of manually fixing the values.
+
 <p align="center">
 <img src="/HW2/Resources/screenshot53.png" width="1000" alt="new rows with ID numbers">
 </p>
