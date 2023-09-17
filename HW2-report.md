@@ -69,7 +69,7 @@ I also handled things that stuck out to me as "*definitely not a pet*" but proba
 </p>
 <br/>
 
-When sorting the *Text facet* by count, I noticed a lot of respondents simply typed "Other", probably because of the nature of the question-- "What kind of pet is this (Dog, Cat, Bird, Other)". Respondents may have assumed that if it wasn't one of the first three mentioned to enter "Other". I wanted to see if the pet breed column gave any dead giveaways, and it did! I was able to figure out almost all of them from information provided by the breed column, so I manually entered these.
+When sorting the *Text facet* by count, I noticed a lot of respondents simply typed "Other", probably because of the nature of the question-- "What kind of pet is this (Dog, Cat, Bird, Other)". Respondents may have assumed that if it wasn't one of the first three mentioned to enter "Other". I wanted to see if the pet breed column gave any dead giveaways as to what these animals were, and it did! I was able to figure out almost all of them from information provided by the breed column, so I manually entered these.
 
 <p align="center">
 <img src="HW2-screenshots/screenshot57.png" width="1000" alt="other facet before">
