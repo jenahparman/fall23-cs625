@@ -81,7 +81,7 @@ When sorting the *Text facet* by count, I noticed a lot of respondents simply ty
 
 I missed the "Winter white hamster" in this screenshot, but I ended up fixing this later.
 
-I also noticed that some respondents would enter their pet kind but also include the word "Other" or "(other)" in their response. I used a GREL expression: `value.replace("Other","").replade("other","")` to get rid of the "Other" word. However, this still left some extraneous puntuation for some entries.
+I also noticed that some respondents would enter their pet kind but also include the word "other" in their response. I used a GREL expression: `value.replace("Other","").replace("other","")` to get rid of the "other" word. However, this still left some extraneous puntuation for some entries.
 
 Then, I used a *Text filter* to find any instances of "kitty", "kitten", "kitty cat", etc.. I simply searched for "kit", and then transformed the selected cells to say "Cat".
 
