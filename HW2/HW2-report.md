@@ -93,9 +93,7 @@ Then, I used a *Text filter* to find any instances of "kitty", "kitten", "kitty 
 
 Then, I did for "puppy", "puppy dog", etc. and changed those to "Dog".  
 
-After narrowing the unique values down to 40, I used *Cluster* again.
-
-This helped get ride of the leftover punctuation from the entries containing "Other".
+After narrowing the unique values down to 40, I used *Cluster* again. This helped get ride of the leftover punctuation from the entries containing "Other".
 
 <p align="center">
 <img src="/HW2/Resources/screenshot61.png" width="1000" alt="clustering pet kind again">
