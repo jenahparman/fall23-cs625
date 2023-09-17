@@ -15,7 +15,7 @@ I started by using *Text facet* on the pet type column to see all the unique val
 
 Upon inspecting the different unique values, I noticed a row with multiple pets in one. I decided to find out if there were more of these instances and handle them before continuing.
 
-I added a *Text filter* to the pet type column and searched for any entries that contained ",", ";", " and ", or "&". I flagged the ones that seemed like they represented more than one pet. Then, I considered the possibility of respondents who have more than one of the same kind of pet. I used a *Text filter* on the pet name column, searched for ",", ";", " and ", or "&" again, and flagged any conspicuous rows. I ended up finding four entries that represented more than one pet.
+To do this, I added a *Text filter* to the pet type column and searched for any entries that contained ",", ";", " and ", or "&". I flagged the ones that seemed like they represented more than one pet. Then, I considered the possibility of respondents who have more than one of the same kind of pet. I used a *Text filter* on the pet name column, searched for ",", ";", " and ", or "&" again, and flagged any conspicuous rows. I ended up finding four entries that represented more than one pet.
 
 <p align="center">
 <img src="HW2-screenshots/screenshot45.png" width="1000" alt="multi-valued cells">
