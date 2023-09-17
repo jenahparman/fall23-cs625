@@ -29,12 +29,12 @@ The girl was reading a book called ***The Self-Taught Programmer:*** *The Defini
 ### Level 3 Heading
 
 *Insert an image of an animal, sized appropriately*\
-<img src="HW1/Resources/otto.jpeg" height="500" alt="Otto, the cat">
+<img src="/HW1/Resources/otto.jpeg" height="500" alt="Otto, the cat">
 
 ## Tableau
 
 *Insert your the image of your final bar chart here. Reminder, this should show data from a region other than the South.*\
-<img src="HW1/Resources/Sales-in-the-West.png" height="500" alt="Sales in the West">
+<img src="/HW1/Resources/Sales-in-the-West.png" height="500" alt="Sales in the West">
 
 ## Google Colab
 
@@ -44,13 +44,13 @@ https://colab.research.google.com/drive/1InpesLqQwBsSt9UBTslAY9jZLqWDbmX8?usp=sh
 ## Python/Seaborn
 
 *Insert the first penguin chart here*\
-<img src="HW1/Resources/figure1.png" height="500" alt="penguin bill depth vs bill length">
+<img src="/HW1/Resources/figure1.png" height="500" alt="penguin bill depth vs bill length">
 
 *Describe what the figure is showing.*\
 This figure shows penguins' bill depth and bill length. It helps visualize the correlation of bill depth and length among sampled penguins.
 
 *Insert the second penguin chart here*\
-<img src="HW1/Resources/figure2.png" height="500" alt="penguin species, body mass">
+<img src="/HW1/Resources/figure2.png" height="500" alt="penguin species, body mass">
 
 *Describe what the figure is showing.*\
 This figure shows the mean body mass of each penguin species sampled.
@@ -71,7 +71,7 @@ Change `vl.x().fieldQ("Horsepower")` to `vl.y().fieldQ("Horsepower")`\
 and `vl.y().fieldQ("Miles_per_Gallon")` to `vl.x().fieldQ("Miles_per_Gallon")`.
 
 *Insert the bar chart image here*\
-![count of car records](HW1/Resources/figure3.png)
+![count of car records](/HW1/Resources/figure3.png)
 
 *Why do you think this chart is the result of this code change?*\
 Removing the line, `vl.y().fieldN("Origin"),`, took away the y-values which were originally three countries of origin. The purpose of the chart was to show quantity of cars from each country. Without the y-values, it just shows the total for all countries.
