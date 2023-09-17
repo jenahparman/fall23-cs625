@@ -270,7 +270,7 @@ I wasn't too scrutinous with the name columns because anything can be a name, an
 <img src="/HW2/Resources/screenshot36.png" width="1000" alt="clustering pet's everyday name">
 </p>
 
-***
+### Links to Data and Operations Files
 
 * [Cleaned Pet Names CSV File](/HW2/Resources/HW2-petnames.csv)
 * [JSON Scripts of All Operations Performed](/HW2/Resources/HW2-petnames.json)
