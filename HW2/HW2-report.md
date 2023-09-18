@@ -195,7 +195,7 @@ I started by applying a *Text filter* on the pet age column. I searched for "y",
 <img src="/HW2/Resources/screenshot18.png" width="1000" alt="GREL expression to remove years text">
 </p>
 
-I repeated these steps for months, but this time the goal was to change these to values to "0". I first filtered for "m", flagging any values that either greater than 12 months or weren't related.
+I repeated these steps for months, but this time the goal was to change these to values to "0". I first filtered for "m", flagging any values that were either greater than 12 months or weren't related.
 
 <p align="center">
 <img src="/HW2/Resources/screenshot19.png" width="1000" alt="pets age filtered">
