@@ -291,7 +291,7 @@ Based on how I cleaned the cat breeds, I found that there were <ins>25</ins> dif
 ***4. What's the most popular cat breed? How many cats are in that breed?***\
 The most popular breed of cat was the <ins>Domestic short-hair</ins> with <ins>104</ins> cats. It is worth noting that for cases where only "short-hair" appeared in the breed column, I changed it to say "Domestic short-hair". (same for any medium- or long-hair entries). This decision was influenced by the fact that Domestic short-hairs are widely recognized as the common household cats in the United States[^5], often likened to "mutts." Therefore, when no specific place of origin (typically associated with purebred cats) was mentioned alongside "shorthair," it was assumed to be a domestic breed.
 
-***5.What's the age range of the cats?***\
+***5. What's the age range of the cats?***\
 Cats ranged from <ins>less than 1 year to 24 years old.</ins> To streamline the data for better sorting accuracy, I used text faceting, clustering, and GREL expressions to eliminate unneccessary non-numeric text. Additionally, I aimed for simplicity and consistency by converting all age values into intergers. Rounding down to the nearest whole number was done to ensure uniformity, as many pet ownders may not have included months or fractions of years when reporting pet ages, even though they could have. After getting the list down to solely numeric integers, I transformed the column into numbers, rather than text, and sorted with smallest first to find the range.
 
 ***6. What's the age range of the rabbits? (Don't forget to look for bunny, too.)***\
