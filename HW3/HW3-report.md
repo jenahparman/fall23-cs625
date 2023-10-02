@@ -15,7 +15,7 @@ To prepare the data for visualization, I decided to choose the most recent year 
 
 <p float="left">
 <img src="/HW3/Resources/screenshot1.png" width="499" alt="cat pet typo">
-<img align=top src="/HW3/Resources/screenshot2.png" width="499" alt="dog pet typo">
+<img align=bottom src="/HW3/Resources/screenshot2.png" width="499" alt="dog pet typo">
 </p>
 
 ### Scatterplot Data
