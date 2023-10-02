@@ -33,6 +33,11 @@ Below are screenshots of the original tables and the new table beneath them.
 </p>
 
 ### Multiple Line Chart Data
+For the multiple line chart, I used the table, <a href="/HW3/Resources/12s0858.xls">"Principal Crops--Supply and Use"</a> (Table 858, Section 17: Agriculture). This table contained information on different crops' supply and usage, including acreage planted and acreage harvested for every year from 1990 to 2010.\
+I decided to use the top four crops (by acreage harvested) in the table. Below, on the left is a screenshot of the original table. On the right is a screenshot of the new table I created which contains only the top four crops ***&&&***&&&***
+
+
+When I actually created the chart, I ended up dropping the fourth crop and only doing the top three (Corn, Soybeans, and Wheat). This is because the fourth crop (Cotton) had a much lower acreage harvested than the others, causing there to be a wide gap in the graph that I did not like.
 
 ## Visualization Idioms
 
