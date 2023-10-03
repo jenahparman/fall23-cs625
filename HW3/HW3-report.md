@@ -108,6 +108,7 @@ I initially created the multiple line chart with four different crop categories,
 <img src="/HW3/Resources/crops_tableau.png" width="1000" alt="other facet before">
 </p>
 I recreated the multiple line chart using a different tool, attempting to match the colors, line width, and axes to the original chart.
+
 <a href = "/HW3/Resources/crops_multiplelinechart.twbx">Link to Tableau Workbook Used to Create Chart</a> 
 
 ## Reflection
