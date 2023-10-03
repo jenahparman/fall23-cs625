@@ -4,7 +4,7 @@ Jenah Parman\
 Due: October 4, 2023
 
 ## Introduction
-text
+In this report, I will walk you through an assignment that provided me with hands-on experience in creating meaningful data visualizations using real-world data. The task was to leverage datasets from the US Census Bureau to craft three distinct types of visualizations: a bar chart, a scatterplot, and a multiple line chart. I had the opportunity to explore these visualizations using at least two different visualization tools. Specifically, I will be drawing insights from data sourced from "National Research & Development (R&D) Expenditures as a Percent of Gross Domestic Product by Country" (Table 800, Section 16: Science and Technolgy), "Urban and Rural Population by State" (Table 29, Section 1: Population), "Land and Water Area of States and Other Entities" (Table 358, Section 6: Geography and Environment), and "Principal Crops--Supply and Use" (Table 858, Section 17: Agriculture) from the 2012 Statistical Abstract of the United States.
 
 ## Data
 
