@@ -46,7 +46,7 @@ I decided to use the top four crops (by acreage harvested) in the table. Below, 
 <img src="/HW3/Resources/screenshot7.png" width="499" alt="dog pet typo">
 </p>
 
-When I created the chart, I ended up dropping the fourth crop,leaving the top three (Corn, Soybeans, and Wheat). This is because the fourth crop (Cotton) had a much lower acreage harvested than the others, causing there to be a wide gap in the graph that I did not like.
+When I created the chart, I ended up dropping the fourth crop, leaving the top three (Corn, Soybeans, and Wheat). This is because the fourth crop (Cotton) had a much lower acreage harvested than the others, causing there to be a wide gap in the graph that I did not like.
 
 ## Visualization Idioms
 
