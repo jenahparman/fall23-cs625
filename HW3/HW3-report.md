@@ -91,7 +91,7 @@ The data found in "Principal Crops--Supply and Use" can be visually represented 
 <img src="/HW3/Resources/crops_seaborn.png" width="1000" alt="other facet before">
 </p>
 <a href = "https://colab.research.google.com/drive/1xBcvJiJczt9KQe87PsFj92S93Hp760iY?usp=sharing">Link to Seaborn in Google Colab Notebook Used to Create Chart</a> 
-<br>
+<br><br>
 <p align="center">
 <img src="/HW3/Resources/crops_tableau.png" width="1000" alt="other facet before">
 </p>
