@@ -75,14 +75,27 @@ The data found in "Principal Crops--Supply and Use" can be visually represented 
 ## Creating the Charts
 
 ### Bar Chart
-Link to Seaborn in Google Colab Notebook Used to Create: https://colab.research.google.com/drive/1xBcvJiJczt9KQe87PsFj92S93Hp760iY?usp=sharing
+<p align="center">
+<img src="/HW3/Resources/r&d_seaborn.png" width="1000" alt="other facet before">
+</p>
+<a href = "https://colab.research.google.com/drive/1xBcvJiJczt9KQe87PsFj92S93Hp760iY?usp=sharing">Link to Seaborn in Google Colab Notebook Used to Create Chart</a> 
 
 ### Scatterplot
-Link to Seaborn in Google Colab Notebook Used to Create: https://colab.research.google.com/drive/1xBcvJiJczt9KQe87PsFj92S93Hp760iY?usp=sharing
+<p align="center">
+<img src="/HW3/Resources/land_V_ruralpop_seaborn.png" width="1000" alt="other facet before">
+</p>
+<a href = "https://colab.research.google.com/drive/1xBcvJiJczt9KQe87PsFj92S93Hp760iY?usp=sharing">Link to Seaborn in Google Colab Notebook Used to Create Chart</a> 
 
 ### Multiple Line Chart
-Link to Seaborn in Google Colab Notebook Used to Create: https://colab.research.google.com/drive/1xBcvJiJczt9KQe87PsFj92S93Hp760iY?usp=sharing
-
+<p align="center">
+<img src="/HW3/Resources/crops_seaborn.png" width="1000" alt="other facet before">
+</p>
+<a href = "https://colab.research.google.com/drive/1xBcvJiJczt9KQe87PsFj92S93Hp760iY?usp=sharing">Link to Seaborn in Google Colab Notebook Used to Create Chart</a> 
+<br>
+<p align="center">
+<img src="/HW3/Resources/crops_tableau" width="1000" alt="other facet before">
+</p>
+<a href = "/HW3/Resources/crops_multiplelinechart.twbx">Link to Tableau Workbook Used to Create Chart</a> 
 
 ## Reflection
 
