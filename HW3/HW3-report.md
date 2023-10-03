@@ -31,6 +31,8 @@ Below are screenshots of the original tables and the new table beneath them.
 <img src="/HW3/Resources/screenshot5.png" width="499" alt="other facet before">
 </p>
 
+When I created the chart, I ended up only using the 25 smallest states due to some states being massive in comparison to the smaller states, making the scatterplot's vertical spatial region unneccesarily wide for my desired scatterplot.
+
 ### Multiple Line Chart
 For the multiple line chart, I used the table, <a href="/HW3/Resources/12s0858.xls">"Principal Crops--Supply and Use"</a> (Table 858, Section 17: Agriculture). This table contained information on different crops' supply and usage, including acreage planted and acreage harvested for every year from 1990 to 2010.\
 I decided to use the top four crops (by acreage harvested) in the table. Below, on the left is a screenshot of the original table. On the right is a screenshot of the  <a href="/HW3/Resources/crops.xlsx">new table</a> I created which contains only the top four crops.
