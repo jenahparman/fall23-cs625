@@ -66,7 +66,7 @@ Idiom: Scatterplot / Mark: Point
 | land area | value, quantitative | horizontal spatial region (x-axis) |
 | rural population | value, quantitative | vertical spatial region (y-axis) |
 
-A scatterplot is effective for representing the data in "Urban and Rural Population by State" and "Land and Water Area of States and Other Entities" because these both contained quantitative attributes belonging to each of the fifty states. Encoding the marks (points) as a state, one can see the correlation between the two quantitave values of land area and rural population by their hotizontal and vertical positions.
+A scatterplot is effective for representing the data in "Urban and Rural Population by State" and "Land and Water Area of States and Other Entities" because these both contained quantitative attributes belonging to each of the fifty states. Encoding the marks (points) as the states, one can see the correlation between the two quantitave values of land area and rural population by their hotizontal and vertical positions.
 
 ### Multiple Line Chart
 Idiom: Line Chart / Mark: Points with line connection
