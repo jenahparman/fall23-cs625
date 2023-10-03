@@ -92,7 +92,7 @@ I sorted the values in my table with data from "National Research & Development 
 <p align="center">
 <img src="/HW3/Resources/land_V_ruralpop_seaborn.png" width="1000" alt="other facet before">
 </p>
-I sorted the values in my table with data from "Urban and Rural Population by State and "Land and Water Area of States and Other Entities" in order of least to greatest land area. I then dropped the largest 25 states because of the substantial difference between large states' and small states' area. I changed the background color to "ghostwhite", and changed the edge color to "slategray" to match the other charts. For better comprehension of the chart, I increased the width of the layout, and to match the other charts. I also selected "yellowgreen" for the dots' color.
+I sorted the values in my table with data from "Urban and Rural Population by State" and "Land and Water Area of States and Other Entities" in order of least to greatest land area. I then dropped the largest 25 states because of the substantial difference between large states' and small states' area. I changed the background color to "ghostwhite", and changed the edge color to "slategray" to match the other charts. For better comprehension of the chart, I increased the width of the layout, and to match the other charts. I also selected "yellowgreen" for the dots' color.
 
 <a href = "https://colab.research.google.com/drive/1xBcvJiJczt9KQe87PsFj92S93Hp760iY?usp=sharing">Link to Seaborn in Google Colab Notebook Used to Create Chart</a> 
 
