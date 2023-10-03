@@ -53,12 +53,16 @@ Idiom: Bar Chart / Mark: Line
 | country name | key, categorical | horizontal spatial region (x-axis) |
 | R&D expenditures | value, quantitative | vertical position on a common scale (y-axis) |
 
+A bar chart is appropriate for the data in "National Research & Development (R&D) Expenditures as a Percent of Gross Domestic Product by Country" because the categories, countries, each had their own quantitative value, R&D expenditures. If one wanted a visual representation to easily compare the countries' R&D expenditures, the most efficient idiom would be a bar chart.
+
 ### Scatterplot
 Idiom: Scatterplot / Mark: Point
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
 | --- |---| --- |
 | land area | value, quantitative | horizontal spatial region (x-axis) |
 | rural population | value, quantitative | vertical spatial region (y-axis) |
+
+A scatterplot is effective for representing the data in "Urban and Rural Population by State and "Land and Water Area of States and Other Entities" because these both contained quantitative attributes belonging to each of the fifty states. Encoding each point as a state, one can see the correlation between the two quantitave values of land area and rural population.
 
 ### Multiple Line Chart
 Idiom: Line Chart / Mark: Points with line connection
