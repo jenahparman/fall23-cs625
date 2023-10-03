@@ -6,7 +6,6 @@ Due: October 4, 2023
 ## Introduction
 text
 
-
 ## Data
 
 ### Bar Chart
@@ -41,7 +40,6 @@ I decided to use the top four crops (by acreage harvested) in the table. Below, 
 <img src="/HW3/Resources/screenshot7.png" width="499" alt="dog pet typo">
 </p>
 
-
 When I created the chart, I ended up dropping the fourth crop,leaving the top three (Corn, Soybeans, and Wheat). This is because the fourth crop (Cotton) had a much lower acreage harvested than the others, causing there to be a wide gap in the graph that I did not like.
 
 ## Visualization Idioms
@@ -53,7 +51,7 @@ Idiom: Bar Chart / Mark: Line
 | country name | key, categorical | horizontal spatial region (x-axis) |
 | R&D expenditures | value, quantitative | vertical position on a common scale (y-axis) |
 
-A bar chart is appropriate for the data in "National Research & Development (R&D) Expenditures as a Percent of Gross Domestic Product by Country" because the categories, countries, each had their own quantitative value, R&D expenditures. If one wanted a visual representation to easily compare the countries' R&D expenditures, the most efficient idiom would be a bar chart.
+A bar chart is appropriate for the data in "National Research & Development (R&D) Expenditures as a Percent of Gross Domestic Product by Country" because the categories, countries, each had their own quantitative value, R&D expenditures. If one wanted a visual representation to easily compare the countries' R&D expenditures, the most efficient idiom would be a bar chart for effortlessly spotting differences in height of the marks (lines), which are aligned at their base along a horizontal spatial region.
 
 ### Scatterplot
 Idiom: Scatterplot / Mark: Point
@@ -62,21 +60,28 @@ Idiom: Scatterplot / Mark: Point
 | land area | value, quantitative | horizontal spatial region (x-axis) |
 | rural population | value, quantitative | vertical spatial region (y-axis) |
 
-A scatterplot is effective for representing the data in "Urban and Rural Population by State and "Land and Water Area of States and Other Entities" because these both contained quantitative attributes belonging to each of the fifty states. Encoding each point as a state, one can see the correlation between the two quantitave values of land area and rural population.
+A scatterplot is effective for representing the data in "Urban and Rural Population by State and "Land and Water Area of States and Other Entities" because these both contained quantitative attributes belonging to each of the fifty states. Encoding the marks (points) as a state, one can see the correlation between the two quantitave values of land area and rural population by their hotizontal and vertical positions.
 
 ### Multiple Line Chart
 Idiom: Line Chart / Mark: Points with line connection
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
 | --- |---| --- |
 | year | key, ordered | horizontal spatial region (x-axis) |
-| acerage harvested | value, quantitative | vertical position on a common scale (y-axis) |
+| acreage harvested | value, quantitative | vertical position on a common scale (y-axis) |
+| crop type | key, categorical | color hue |
 
-
-
-
+The data found in "Principal Crops--Supply and Use" can be visually represented using a line chart because of its ordered attribute, years, which is represented on a horizontal spatial region, and each year containing a quantiative value, acreage harvested, which is represented by vertical position on a common scale. Because there are multiple different categories, another key is neccessary which is encoded by color hue to distinguish between crop types. Because of the ordered aspect of the data, we can use points (depict the quantity of acreage harvested for each year) with lines connecting them to recognize trends.
 
 ## Creating the Charts
 
+### Bar Chart
+Link to Seaborn in Google Colab Notebook Used to Create: https://colab.research.google.com/drive/1xBcvJiJczt9KQe87PsFj92S93Hp760iY?usp=sharing
+
+### Scatterplot
+Link to Seaborn in Google Colab Notebook Used to Create: https://colab.research.google.com/drive/1xBcvJiJczt9KQe87PsFj92S93Hp760iY?usp=sharing
+
+### Multiple Line Chart
+Link to Seaborn in Google Colab Notebook Used to Create: https://colab.research.google.com/drive/1xBcvJiJczt9KQe87PsFj92S93Hp760iY?usp=sharing
 
 
 ## Reflection
