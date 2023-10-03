@@ -110,6 +110,14 @@ I recreated the multiple line chart using a different tool, attempting to match 
 ### Seaborn (Python) vs. Tableau
 I found Tableau to be quite user-friendly with its intuitive drag-and-drop interface, making it an excellent choice for beginners. On the other hand, Seaborn in Python offers a greater degree of customization, although it may come with a steeper learning curve. I had a positive experience using both tools, but I found Tableau to be more straightforward to get started with.
 
-
-
 ## References
+* Statistical Abstract of the United States: 2012, https://www.census.gov/library/publications/2011/compendia/statab/131ed.html
+* *Visualization Analysis and Design*, https://go.oreilly.com/old-dominion-university//library/view/visualization-analysis-and/9781466508910/
+* pandas.DataFrame.drop, https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop.html
+* The seaborn.objects interface, https://seaborn.pydata.org/tutorial/objects_interface.html
+* Properties of Mark objects, seaborn.objects.Plot, https://seaborn.pydata.org/generated/seaborn.objects.Plot.html#seaborn.objects.Plot
+* Customizing Matplotlib with style sheets and rcParams, https://matplotlib.org/stable/users/explain/customizing.html
+* List of named colors, https://matplotlib.org/stable/gallery/color/named_colors.html
+* Marks and Channels tutorial with Seaborn Objects, https://github.com/odu-cs625-datavis/public-fall23-mcw/blob/main/Marks_Channels_Seaborn_Objects.ipynb
+* How to Tableau : Multiple Measures on Multiple Rows, https://www.youtube.com/watch?v=6o_D9vDZfa8
+  
