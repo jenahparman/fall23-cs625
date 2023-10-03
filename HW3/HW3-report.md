@@ -42,9 +42,21 @@ I decided to use the top four crops (by acreage harvested) in the table. Below, 
 </p>
 
 
-When I actually created the chart, I ended up dropping the fourth crop and only doing the top three (Corn, Soybeans, and Wheat). This is because the fourth crop (Cotton) had a much lower acreage harvested than the others, causing there to be a wide gap in the graph that I did not like.
+When I created the chart, I ended up dropping the fourth crop,leaving the top three (Corn, Soybeans, and Wheat). This is because the fourth crop (Cotton) had a much lower acreage harvested than the others, causing there to be a wide gap in the graph that I did not like.
 
 ## Visualization Idioms
+
+Idiom: Bar Chart / Mark: Line
+| Data: Attribute | Data: Attribute Type  | Encode: Channel | 
+| --- |---| --- |
+| country name | key, categorical | horizontal spatial region (x-axis) |
+| R&D expenditures | value, quantitative | vertical position on a common scale (y-axis) |
+
+Idiom: Scatterplot / Mark: Point !!!
+| Data: Attribute | Data: Attribute Type  | Encode: Channel | 
+| --- |---| --- |
+| country name | key, categorical | horizontal spatial region (x-axis) |
+| R&D expenditures | value, quantitative | vertical spatial region (x-axis) |
 
 
 
