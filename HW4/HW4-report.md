@@ -1,7 +1,7 @@
 # HW 4: Arrange Tables
 
 Jenah Parman\
-Due: October 25, 2023
+Due: October 27, 2023
 
 ## Introduction - Dataset 1
 This assignment focuses on data visualization and chart implementation, with the aim of answering real-world questions using appropriate charts and design principles. I have chosen **Table 91,"Women Who Have Had a Child in the Last Year by Age"** as the dataset for this assignment. This dataset offers insights into childbirth demographics across different age groups. The following report will detail the approach, chart selection, and design principles applied to reveal significant patterns and relationships within the data.
