@@ -27,7 +27,7 @@ After creating the slopegraph, it was evident that the younger half of the age r
 | age range | key, categorical | color hue, color saturation |
 | age range category (younger half or older half) | key, categorical | color hue |
 
-Because of clear divide between positive and negative slopes in the younger and older age groups, I opted to differentiate them using two distinct hues (blue and orange). I also used variations in saturation within each hue to represent the age range (from dark to light, signifying youngest to oldest within each category). Due to limitations in Tableau, I manually selected line colors for accuracy. To enhance clarity and emphasize key data points, I added points at the end of each line to help viewers easily identify data associated with each year and age group, creating a more visually informative representation.
+Because of clear divide between positive and negative slopes in the younger and older age groups, I opted to differentiate them using two distinct hues (blue and orange). I also used variations in saturation within each hue to represent the age range (from dark to light, signifying youngest to oldest within each category). Due to limitations in Tableau, I manually selected line colors for accuracy. To enhance clarity and emphasize key data points, I added points at the end of each line to help viewers easily identify data associated with each year and age group.
 
 ### Question 2
 #### How does this compare to the number of women in each age group who had a child (not necessarily their first) in that year? What does this say about the age of women giving birth in the US?
