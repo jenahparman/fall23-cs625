@@ -146,7 +146,7 @@ For this question, I decided to make a horizontal bar chart in Tableau. This ori
 **Idiom: Bar Chart / Mark: Line**
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
 | --- |---| --- |
-| state | key, categorical | vertical spatial region (x-axis) |
+| state | key, categorical | vertical spatial region (y-axis) |
 | number of deaths | value, quantitative | horizontal position on a common scale (x-axis) |
 
 ### Question 2
