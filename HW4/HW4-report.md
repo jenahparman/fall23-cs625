@@ -6,8 +6,8 @@ Due: October 25, 2023
 ## Introduction - Dataset 1
 This assignment focuses on data visualization and chart implementation, with the aim of answering real-world questions using appropriate charts and design principles. I have chosen **Table 91,"Women Who Have Had a Child in the Last Year by Age"** as the dataset for this assignment. This dataset offers insights into childbirth demographics across different age groups. The following report will detail the approach, chart selection, and design principles applied to reveal significant patterns and relationships within the data.
 
-## Question 1
-### Compare the ages of women at the time of the birth of their first child between 1990-2008. For instance, is there any evidence that women in the US are waiting longer to have their first child?
+### Question 1
+#### Compare the ages of women at the time of the birth of their first child between 1990-2008. For instance, is there any evidence that women in the US are waiting longer to have their first child?
 <p align="center">
 <img src="/HW4/Resources/D1_Q1chart_tableau.png" width="800">
 </p>
@@ -29,8 +29,8 @@ After creating the slopegraph, it becomes evident that the younger half of the a
 
 I noticed that there was a clear divide between positive and negative slopes in the younger and older age groups, so I opted to differentiate them using two distinct hues (blue and orange). I also used variations in saturation within each hue to represent the age range (from dark to light, signifying youngest to oldest within each category). Due to limitations in Tableau, I manually selected line colors for accuracy. To enhance clarity and emphasize key data points, I added points at the end of each line to help viewers easily identify data associated with each year and age group, creating a more visually informative representation.
 
-## Question 2
-### How does this compare to the number of women in each age group who had a child (not necessarily their first) in that year? What does this say about the age of women giving birth in the US?
+### Question 2
+#### How does this compare to the number of women in each age group who had a child (not necessarily their first) in that year? What does this say about the age of women giving birth in the US?
 <p align="center">
 <img src="/HW4/Resources/D1_Q2chart_tableau.png" width="1000">
 </p>
@@ -51,7 +51,7 @@ Upon examining the bar chart, it becomes evident that there was a decline in the
 
 For the bar chart, I opted for pink and green as color choices. This decision was deliberate because I wanted to avoid potential confusion by using the same two colors from the first chart. In the first chart, these colors represented different elements, and to maintain clarity and differentiation in the second chart, I chose a fresh set of colors.
 
-## Further Questions
+### Further Questions
 
 Exploring the data has unveiled compelling questions for further investigation regarding shifting childbirth dynamics in the US. Here are some questions that emerged while analyzing the visualizations I created:
 
@@ -64,8 +64,8 @@ Is the trend of women waiting to have kids primarily because of the increasing c
 * **How do education and healthcare factors impact women's family planning?**\
 To what extent are education and healthcare related factors influencing women's choices when it comes to family planning? Is the increased access to healthcare and the availability of comprehensive sex education contributing significantly to the decision of when to start a family?
 
-## Extra Credit
-### Combine the data from Tables 91 and 92 (Women Who Have Had a Child in the Last Year By Selected Characteristics) to investigate other factors that affect this.
+### Extra Credit [2 points]
+#### Combine the data from Tables 91 and 92 (Women Who Have Had a Child in the Last Year By Selected Characteristics) to investigate other factors that affect this.
 
 <p align="center">
 <img src="/HW4/Resources/D1_ECchart_tableau.png" width="1000">
@@ -88,18 +88,49 @@ From the bar chart I created, it's evident that individuals with higher income l
 
 I opted for an overlay stacked bar chart to illustrate the relationships between first births and total births within income ranges. This format simplifies comparisons and highlights any patterns. Horizontally arranged, it ensures clear readability of income ranges, while the contrasting orange and blue colors enhance visibility and differentiation.
 
-# Extra Credit
+# Extra Credit [4 points]
 
 Below, you'll find my Python-based recreations of the charts originally created in Tableau.
 
 ## Question 1
-
+### Compare the ages of women at the time of the birth of their first child between 1990-2008. For instance, is there any evidence that women in the US are waiting longer to have their first child?
 <p align="center">
 <img src="/HW4/Resources/D1_Q1chart_seaborn.png" width="800">
 </p>
 
 *Link to Chart: <a href= "https://colab.research.google.com/drive/17G5KNvDSdntp73Nt-74d_mf-l8fwCf3u?usp=sharing">ipynb Notebook</a>*\
 *Link to Edited Excel Spreadsheet: <a href= "/HW4/Resources/births4.xlsx">Births Excel Spreadsheet</a>*
+
+For this chart, I utilized Seaborn Object's Plot and incorporated lines with 'o' markers at both endpoints. To enhance clarity, I customized the axis ticks to display only the years 1990 and 2008. The colors were manually selected using hex codes, varying saturation for ages, and categorical hues to distinguish the younger and older age groups. Additionally, I adjusted the linewidth to match the original Tableau chart.
+
+## Question 2
+### How does this compare to the number of women in each age group who had a child (not necessarily their first) in that year? What does this say about the age of women giving birth in the US?
+<p align="center">
+<img src="/HW4/Resources/D1_Q2chart_seaborn.png" width="1000">
+</p>
+
+*Link to Chart: <a href= "https://colab.research.google.com/drive/17G5KNvDSdntp73Nt-74d_mf-l8fwCf3u?usp=sharing">ipynb Notebook</a>*\
+*Link to Edited Excel Spreadsheet: <a href= "/HW4/Resources/births5.xlsx">Births Excel Spreadsheet</a>*
+
+For this chart, I utilized Seaborn objects to construct a side-by-side bar chart by employing the 'Dodge' feature, ensuring that bars for each category are displayed separately, rather than stacked. The colors were manually selected using a hex color picker to closely match the original Tableau chart's aesthetics. Furthermore, I adjusted the y-axis units to display 'K' and 'M' instead of scientific notation, enhancing readability.
+
+## Extra Credit Question
+### Combine the data from Tables 91 and 92 (Women Who Have Had a Child in the Last Year By Selected Characteristics) to investigate other factors that affect this.
+<p align="center">
+<img src="/HW4/Resources/D1_ECchart_seaborn.png" width="1000">
+</p>
+
+*Link to Chart: <a href= "https://colab.research.google.com/drive/17G5KNvDSdntp73Nt-74d_mf-l8fwCf3u?usp=sharing">ipynb Notebook</a>*\
+*Link to Edited Excel Spreadsheet: <a href= "/HW4/Resources/births7.xlsx">Births Excel Spreadsheet</a>*
+
+For the overlay stacked bar chart, I employed Seaborn objects and performed some data adjustments, including scaling values by 1000 for consistency. I aimed to represent a part-to-whole relationship, with first births encompassed within total births, rather than being added on top. To achieve this, I subtracted the 'First Births' column from the 'Total Births' column and used the result as the new 'Total BIrths' before creating the stacked bar chart in Python. Additionally, I removed dollar signs from the income labels to ensure a more visually appealing and consistent display. The color palette was selected using a hex color picker, and the 'Stack' feature was used to create the chart.
+
+# Extra Credit [5 points]
+## Introduction - Dataset 2
+This assignment focuses on data visualization and chart implementation, with the aim of answering real-world questions using appropriate charts and design principles. I have chosen **Table 118 - Death Rates for Major Causes of Death--States and Island Areas"** as the second dataset for this assignment. This dataset provides vital insights into death rates attributed to major causes across various states and island areas. The following report will detail the approach, chart selection, and design principles applied to reveal significant patterns and relationships within the data.
+
+
+
 
 
 
