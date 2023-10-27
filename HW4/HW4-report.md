@@ -40,7 +40,7 @@ Because of clear divide between positive and negative slopes in the younger and 
 
 For this question, I created a bar chart in Tableau to compare the number of women giving birth across different age groups in 1990 and 2008. This selection was made for its ability to effectively represent the data and facilitate a clear visual comparison, with age groups categorized on the x-axis and the total number of women who had a child on the y-axis. The use of color (pink for 1990 and green for 2008) further aids in highlighting the differences between the two years. This chart format ensures clarity in presenting the data and enables viewers to easily discern changes in the age of women giving birth in the US over time.
 
-Upon examining the bar chart, it becomes evident that there was a decline in the number of women in their 20s giving birth in 2008 compared to 1990. Additionally, the chart highlights a substantial disparity in the case of older women, specifically those aged 35 to 44, with the most notable difference in bar area when compared to other age categories. It is clear that these older women were giving birth at a considerably higher rate in 2008 compared to 1990.
+Upon examining the bar chart, it becomes evident that there was a decline in the number of women in their 20s giving birth in 2008 compared to 1990. Additionally, the chart highlights a substantial difference in the case of older women, specifically those aged 35 to 44, with the most notable difference in bar area when compared to other age categories. It is clear that these older women were giving birth at a considerably higher rate in 2008 compared to 1990.
 
 **Idiom: Bar Chart / Mark: Line**
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
