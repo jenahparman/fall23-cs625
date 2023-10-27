@@ -99,7 +99,7 @@ Below, you'll find my Python-based recreations of the charts originally created 
 </p>
 
 *Link to Chart: <a href= "https://colab.research.google.com/drive/17G5KNvDSdntp73Nt-74d_mf-l8fwCf3u?usp=sharing">ipynb Notebook</a>*\
-*Link to Edited Excel Spreadsheet: <a href= "/HW4/Resources/births4.xlsx">Births Excel Spreadsheet</a>*
+*Link to Edited Excel Spreadsheet: <a href= "/HW4/Resources/births4.csv">Births Excel Spreadsheet</a>*
 
 For this chart, I utilized Seaborn Object's Plot and incorporated lines with 'o' markers at both endpoints. To enhance clarity, I customized the axis ticks to display only the years 1990 and 2008. The colors were manually selected using hex codes, varying saturation for ages, and categorical hues to distinguish the younger and older age groups. Additionally, I adjusted the linewidth to match the original Tableau chart.
 
@@ -126,10 +126,71 @@ For this chart, I utilized Seaborn objects to construct a side-by-side bar chart
 For the overlay stacked bar chart, I employed Seaborn objects and performed some data adjustments, including scaling values by 1000 for consistency. I aimed to represent a part-to-whole relationship, with first births encompassed within total births, rather than being added on top. To achieve this, I subtracted the 'First Births' column from the 'Total Births' column and used the result as the new 'Total BIrths' before creating the stacked bar chart in Python. Additionally, I removed dollar signs from the income labels to ensure a more visually appealing and consistent display. The color palette was selected using a hex color picker, and the 'Stack' feature was used to create the chart.
 
 # Extra Credit [5 points]
+
 ## Introduction - Dataset 2
 This assignment focuses on data visualization and chart implementation, with the aim of answering real-world questions using appropriate charts and design principles. I have chosen **Table 118 - Death Rates for Major Causes of Death--States and Island Areas"** as the second dataset for this assignment. This dataset provides vital insights into death rates attributed to major causes across various states and island areas. The following report will detail the approach, chart selection, and design principles applied to reveal significant patterns and relationships within the data.
 
+### Question 1
+#### Which states had the highest death rates over all causes in 2006?
+<p align="center">
+<img src="/HW4/Resources/D2_Q1chart_tableau.png" width="800">
+</p>
 
+*Link to Chart: <a href= "/HW4/Resources/D2_Q1.twb" >Tableau Workbook</a>*\
+*Link to Edited Excel Spreadsheet: <a href= "/HW4/Resources/deaths.xlsx">Deaths Excel Spreadsheet</a>*
+
+For this question, I decided to make a horizontal bar chart in Tableau. This orientation was chosen to enhance the readability of state names. The bars are in a pastel green shade. The decision to use a bar chart was driven by the need for a to compare death rates among states, allowing for an efficient visual assessment of the data. In examining the chart, it became clear that Mississippi had the highest death rates overall, followed by Alabama, West Virginia, Louisiana, and Oklahoma.
+
+**Idiom: Bar Chart / Mark: Line**
+| Data: Attribute | Data: Attribute Type  | Encode: Channel | 
+| --- |---| --- |
+| state | key, categorical | vertical spatial region (x-axis) |
+| number of deaths | value, quantitative | horizontal position on a common scale (x-axis) |
+
+### Question 2
+#### Is this ordering different if you compare deaths due to disease vs. deaths due to accident, injury, and assault? In other words, which states are more hazardous to your health vs. which states are the most dangerous?
+
+<p float="left">
+<img src="/HW4/Resources/D2_Q2chart2_tableau.png" width="499" >
+<img src="/HW4/Resources/D2_Q2chart1_tableau.png" width="499" >
+</p>
+
+*Link to Chart: <a href= "/HW4/Resources/D2_Q2.twb" >Tableau Workbook</a>*\
+*Link to Edited Excel Spreadsheet: <a href= "/HW4/Resources/deaths2.xlsx">Deaths Excel Spreadsheet</a>*
+
+For this question, I merged the data from both categories and constructed horizontal bar charts in Tableau for comparison. Utilizing the same pastel green color for consistency, the charts distinctly displayed variations in the states with the highest death rates, depending on the cause of death. I aimed to explore the variation in ordering rather than directly comparing the values themselves. To achieve this, I created two charts and positioned them side by side. It's important to note that while assessing the assault data, there were missing values for the states of North Dakota, Wyoming, and Vermont, which were replaced with '0' for the visualization. These visualizations made it evident that differences exist in the states categorized as the most hazardous to one's health versus those considered the most dangerous. For deaths caused by disease, the top five states with highest rates were Mississipi, Oklahoma, Alabama, West Virginia, and Tennessee. For deaths caused by accidents, injuries, and assault, the top five states were: Mississippi, Louisiana, New Mexico, West Virginia, and Alabama. There are a few similarities in both charts, and Mississippi was the top state in both. 
+
+**Idiom: Bar Chart / Mark: Line**
+| Data: Attribute | Data: Attribute Type  | Encode: Channel | 
+| --- |---| --- |
+| state | key, categorical | vertical spatial region (x-axis) |
+| number of deaths | value, quantitative | horizontal position on a common scale (x-axis) |
+| cause of death | key, categorical | vertical spatial region |
+
+
+### Further Questions
+
+Exploring the data has unveiled compelling questions for further investigation regarding shifting childbirth dynamics in the US. Here are some questions that emerged while analyzing the visualizations I created:
+
+* **What are the underlying factors contributing to differences in state death rates when comparing deaths due to disease versus deaths resulting from accidents, injuries, and assaults?**\
+   Are there specific regional or lifestyle factors that explain variations in state death rates based on the cause of death?
+
+* **Are states with high death rates due to disease taking different preventive measures compared to those with high death rates from accidents, injuries, and assaults?**\
+  What strategies and interventions could be tailored to address these differing health and safety challenges effectively?
+
+# References
+
+* Statistical Abstract of the United States: 2012, https://www.census.gov/library/publications/2011/compendia/statab/131ed.html
+* *Visualization Analysis and Design*, https://go.oreilly.com/old-dominion-university//library/view/visualization-analysis-and/9781466508910/
+* Understanding Pandas Melt — pd.melt(), https://pub.towardsai.net/understanding-pandas-melt-pd-melt-362954f8c125Links to an external site.
+* pandas.DataFrame.drop, https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop.html
+* The seaborn.objects interface, https://seaborn.pydata.org/tutorial/objects_interface.html
+* Properties of Mark objects, seaborn.objects.Plot, https://seaborn.pydata.org/generated/seaborn.objects.Plot.html#seaborn.objects.Plot
+* Customizing Matplotlib with style sheets and rcParams, https://matplotlib.org/stable/users/explain/customizing.html
+* List of named colors, https://matplotlib.org/stable/gallery/color/named_colors.html
+* Marks and Channels tutorial with Seaborn Objects, https://github.com/odu-cs625-datavis/public-fall23-mcw/blob/main/Marks_Channels_Seaborn_Objects.ipynb
+* How to Tableau : Multiple Measures on Multiple Rows, https://www.youtube.com/watch?v=6o_D9vDZfa8
+* Overlay Bar Chart, https://domo-support.domo.com/s/article/360043429413?language=en_US
 
 
 
