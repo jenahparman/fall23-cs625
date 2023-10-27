@@ -3,7 +3,7 @@
 Jenah Parman\
 Due: October 25, 2023
 
-## Introduction
+## Introduction - Dataset 1
 This assignment focuses on data visualization and chart implementation, with the aim of answering real-world questions using appropriate charts and design principles. I have chosen **Table 91,"Women Who Have Had a Child in the Last Year by Age"** as the dataset for this assignment. This dataset offers insights into childbirth demographics across different age groups. The following report will detail the approach, chart selection, and design principles applied to reveal significant patterns and relationships within the data.
 
 ## Question 1
@@ -36,3 +36,33 @@ I noticed that there was a clear divide between positive and negative slopes in 
 
 *Link to Chart: <a href= "/HW4/Resources/D1_Q2.twb" >Tableau Workbook</a>*
 
+For this question, I used a bar chart to compare the number of women giving birth across different age groups in 1990 and 2008. This selection was made for its ability to effectively represent the data and facilitate a clear visual comparison, with age groups categorized on the x-axis and the total number of women who had a child on the y-axis. The use of color (pink for 1990 and green for 2008) further aids in highlighting the differences between the two years. This chart format ensures clarity in presenting the data and enables viewers to easily discern changes in the age of women giving birth in the US over time.
+
+Upon examining the bar chart, it becomes evident that there was a decline in the number of women in their 20s giving birth in 2008 compared to 1990. Additionally, the chart highlights a substantial disparity in the case of older women, specifically those aged 35 to 44, with the most notable difference in bar area when compared to other age categories. It is clear that these older women were giving birth at a considerably higher rate in 2008 compared to 1990.
+
+**Idiom: Bar Chart / Mark: Line**
+| Data: Attribute | Data: Attribute Type  | Encode: Channel | 
+| --- |---| --- |
+| age range | key, categorical | horizontal spatial region (x-axis) |
+| total women who gave birth | value, quantitative | vertical position on a common scale (y-axis) |
+| year | key, categorical | color hue |
+
+## Further Questions
+
+Exploring the data has unveiled compelling questions for further investigation regarding shifting childbirth dynamics in the US. Here are some questions that emerged while analyzing the visualizations I created:
+
+* **Are women evolving to ensure healthier childbirth as they wait longer to have kids, defying risks associated with geriatric pregnancies?**\
+With women increasingly delaying childbirth, is there evidence of an evolutionary shift towards healthier childbirth experiences, contrary to the historical risks associated with later pregnancies? In the past, early motherhood was believed to lead to healthier children due to peak fertility. Are we witnessing an evolution in this regard as women choose to have children later in life?
+
+* **What's driving the trend of delayed parenthood among women?**\
+Is the trend of women waiting to have kids primarily because of the increasing costs of raising a family? Could it be a matter of financial readiness?
+
+* **How do education and healthcare factors impact women's family planning?**\
+To what extent are education and healthcare related factors influencing women's choices when it comes to family planning? Is the increased access to healthcare and the availability of comprehensive sex education contributing significantly to the decision of when to start a family?
+
+## Extra Credit
+### Combine the data from Tables 91 and 92 (Women Who Have Had a Child in the Last Year By Selected Characteristics) to investigate other factors that affect this.
+
+<p align="center">
+<img src="/HW4/Resources/D1_ECchart_tableau.png" width="1000">
+</p>
