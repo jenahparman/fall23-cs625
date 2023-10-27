@@ -74,9 +74,9 @@ To what extent are education and healthcare related factors influencing women's 
 *Link to Chart: <a href= "/HW4/Resources/D1_EC.twb" >Tableau Workbook</a>*\
 *Link to Edited Excel Spreadsheet: <a href= "/HW4/Resources/births7.xlsx">Births Excel Spreadsheet</a>*
 
-I created an overlay bar chart in Tableau for this question because it's effective at combining data from Tables 91 and 92 to investigate factors influencing childbirth. By focusing on income as a key factor, the stacked bars illustrate how income levels relate to both total births and first births, enabling a clear assessment of this specific aspect of childbirth patterns.
+I created an overlay bar chart in Tableau for this question to investigate factors influencing childbirth. By focusing on income as a key factor, the stacked bars illustrate how income levels relate to both total births and first births, enabling a clear assessment of this specific aspect of childbirth patterns.
 
-From the bar chart I created, it's evident that individuals with higher income levels are having a significantly greater number of children, whether they are first births or not. This observation strongly suggests that the ability to raise a family may be substantially facilitated by higher income, emphasizing the correlation between income and family size.
+From the bar chart I created, it's evident that individuals with higher income levels are having a significantly greater number of children, whether they are first births or not. This observation strongly suggests that the ability to raise a family may be substantially facilitated by higher income, emphasizing the correlation between income and family size. 
 
 **Idiom: Overlay Bar Chart / Mark: Line**
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
