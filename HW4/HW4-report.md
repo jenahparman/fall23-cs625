@@ -141,7 +141,7 @@ This assignment focuses on data visualization and chart implementation, with the
 *Link to Chart: <a href= "/HW4/Resources/D2_Q1.twb" >Tableau Workbook</a>*\
 *Link to Edited Excel Spreadsheet: <a href= "/HW4/Resources/deaths.xlsx">Deaths Excel Spreadsheet</a>*
 
-For this question, I decided to make a horizontal bar chart in Tableau. This orientation was chosen to enhance the readability of state names. The bars are in a pastel green shade. The decision to use a bar chart was driven by the need for a to compare death rates among states, allowing for an efficient visual assessment of the data. In examining the chart, it became clear that Mississippi had the highest death rates overall, followed by Alabama, West Virginia, Louisiana, and Oklahoma.
+For this question, I decided to make a horizontal bar chart in Tableau. This orientation was chosen for better readability of the state names. The bars are in a pastel green shade. The decision to use a bar chart was driven by the need for a to compare death rates among states, allowing for an efficient visual assessment of the data. In examining the chart, it became clear that Mississippi had the highest death rates overall, followed by Alabama, West Virginia, Louisiana, and Oklahoma.
 
 **Idiom: Bar Chart / Mark: Line**
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
