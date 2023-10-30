@@ -76,7 +76,7 @@ To what extent are education and healthcare related factors influencing women's 
 
 I created an overlay bar chart in Tableau for this question to investigate factors influencing childbirth. By focusing on income as a key factor, the stacked bars illustrate how income levels relate to both total births and first births, enabling a clear assessment of this specific aspect of childbirth patterns.
 
-Examining the bar chart I created reveals a strong connection between higher income levels and larger family sizes, whether it's the first child or subsequent ones. This highlights the vital role of income in family planning.
+Examining the bar chart I created reveals a strong connection between higher income levels and more childbirths, whether it's the first child or subsequent ones. This highlights the vital role of income in family planning.
 
 Comparing this chart to those from earlier questions, it's clear that women are delaying childbirth, with older women having more children than before. The escalating cost of living likely plays a significant role, as couples may be waiting to ensure financial stability before starting a family. This delay in parenthood could explain the higher number of children among older women, underscoring the intricate relationship between income, timing of family planning, and the cost of living
 
