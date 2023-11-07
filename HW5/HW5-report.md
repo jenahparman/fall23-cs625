@@ -99,6 +99,8 @@ I then set the x-axis label, title, and x-axis tick labels so that there are com
 <img src="/HW5/Resources/ecdf1.png" width="800">
 </p>
 
+Link to Chart: <a href= "https://colab.research.google.com/drive/153VaBggkMXGLEe8KKbDQVQjVxoLHJFux?usp=sharing">ipynb Notebook</a>
+
 This eCDF provides a visual representation of the distribution of rural population across states, making it easy to observe the spread and variation in population. One disadvantage of this chart is, it is a little difficult to tell what type of distribution the dataset has.
 
 This chart shows that the majority of states have a relatively low rural population, considering the steep initial climb in the eCDF curve.
@@ -126,6 +128,8 @@ I then set the x- and y-axis labels and the title. I also adjusted the tick labe
 <img src="/HW5/Resources/histogram1.png" width="800">
 </p>
 
+Link to Chart: <a href= "https://colab.research.google.com/drive/153VaBggkMXGLEe8KKbDQVQjVxoLHJFux?usp=sharing">ipynb Notebook</a>
+
 This histogram provided a straightforward way to visualize the frequency of states falling within specific rural population ranges, making it easy to identify density characteristics in the distribution. One drawback to the histogram is its sensitivity to choice of bin sizes. The distribution shape and characteristics varied greatly depending on the bin widths that I played around with.
 
 The histogram revealed the presence of multiple modes in the rural distribution. It also shows that only a few states have large rural populations.
@@ -138,18 +142,25 @@ After viewing the distribution of rural populations, I was curious as to how thi
 <img src="/HW5/Resources/ecdf2.png" width="800">
 </p>
 
+Link to Chart: <a href= "https://colab.research.google.com/drive/153VaBggkMXGLEe8KKbDQVQjVxoLHJFux?usp=sharing">ipynb Notebook</a>
+
 Viewing rural and urban populations seperately led me to wonder if there was any correaltion, for instance, do states with higher urban populations tend to have lower rural populations? For this scatterplot, I decided to drop the upper half of states' urban populations to avoid a skewed chart. There was a somewhat positive correaltion between urban and rural states, suggesting that a state's total population amount affects both urban and rural populations.
 
 <p align="center">
 <img src="/HW5/Resources/scatterplot2.png" width="800">
 </p>
 
+Link to Chart: <a href= "https://colab.research.google.com/drive/153VaBggkMXGLEe8KKbDQVQjVxoLHJFux?usp=sharing">ipynb Notebook</a>
+
 After gaining insight into states' rural and urban populations, I was interested to learn more about population density, or total population divided by state land area. To visualzie this, I created a choropleth map where the darker states represent more people per square mile.
 
 I found a table in the same section of the Statistical Abstract of the United States, Table 13 - State Population--Rank, Percent Change, And Population Density. I performed similar Pandas processing steps as the original dataset to prepare for analysis.\
 <a href="/HW5/Resources/10s0013.xls">Link to 'Before' Dataset</a> | <a href="/HW5/Resources/dens_df.csv">Link to 'After' Dataset</a>
 
+The choropleth map revealed that smaller, coastal states typically had the greatest population density. It also showed that more rural areas had the lowest population density.
 
 <p align="center">
 <img src="/HW5/Resources/choropleth2.png" width="800">
 </p>
+
+Link to Chart: <a href= "https://colab.research.google.com/drive/153VaBggkMXGLEe8KKbDQVQjVxoLHJFux?usp=sharing">ipynb Notebook</a>
