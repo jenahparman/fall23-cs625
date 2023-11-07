@@ -164,3 +164,10 @@ The choropleth map revealed that smaller, coastal states typically had the great
 </p>
 
 Link to Chart: <a href= "https://colab.research.google.com/drive/153VaBggkMXGLEe8KKbDQVQjVxoLHJFux?usp=sharing">ipynb Notebook</a>
+
+## References
+* Statistical Abstract of the United States: 2012, https://www.census.gov/library/publications/2011/compendia/statab/131ed.html
+* Understanding Pandas Melt — pd.melt(), https://pub.towardsai.net/understanding-pandas-melt-pd-melt-362954f8c125
+* Histograms and eCDF’s: Practical Tips to reading them like a fourth grader, https://lazymodellingcrew.com/post/post_14_reading_like_a_fourthgrader_ta/
+* Visualizing Distributions Examples in Python (Seaborn), https://github.com/odu-cs625-datavis/public-fall23-mcw/blob/main/vis_distributions_Python.ipynb
+* Choropleth Maps using Plotly in Python, https://www.geeksforgeeks.org/choropleth-maps-using-plotly-in-python/#
