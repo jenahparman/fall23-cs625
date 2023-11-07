@@ -71,7 +71,7 @@ I then renamed the axes, set the title, and set tick labels so that there are co
 
 Link to Chart: <a href= "https://colab.research.google.com/drive/153VaBggkMXGLEe8KKbDQVQjVxoLHJFux?usp=sharing">ipynb Notebook</a>
 
-The boxplot effectively enables a comparison between urban and rural populations by seperately displaying major outliers. Notably, the boxplot represents these outliers as diamond markers rather than incorporating them within the standard box and whisker glyph. However, a drawback of the boxplot is the considerable amount of empty space due to these prominent outliers, leading to potential inefficiency in visual space utilization.
+The boxplot effectively enables a comparison between urban and rural populations by seperately displaying major outliers. Notably, the boxplot represents these outliers as diamond markers rather than incorporating them within the standard box and whisker glyph. However, a drawback of the boxplot is the considerable amount of empty space due to these prominent outliers, leading to inefficiency in visual space utilization.
 
 The boxplot makes it evident that urban populations significantly exceed rural populations, and it also highlights the presence of remarkable and conspicuous outliers within the urban population distribution.
 
