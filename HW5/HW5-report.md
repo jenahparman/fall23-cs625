@@ -84,7 +84,7 @@ First, I created a new DataFrame that contained only the rural populations of ea
         df_rural = df1[df1['Population_Type'] == 'Rural'].copy()
         df_rural.drop(df_rural.columns[[1]],axis=1,inplace=True)
 
-Then, I set the figure size and then, created the eCDF using the new dataset, with `'Population_Amount` as the x-axis.
+Then, I set the figure size and then, created the eCDF using the new dataset, with `Population_Amount` as the x-axis.
         
         sns.set(rc={'figure.figsize':(10,6)})
         ax = sns.ecdfplot(data=df_rural, x='Population_Amount')
