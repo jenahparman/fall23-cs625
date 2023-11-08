@@ -34,7 +34,7 @@ Then, I retained only the columns that contained urban and rural populations and
         df1.drop(df.columns[[1,2,3,4,5,7]],axis=1,inplace=True)
         df1 = df1.reset_index(drop=True)
 
-I then rescaled the population values by multiplying them by 1000 for accuracy and renamed the columns to simply "State", "Rural", and "Urban".
+I then rescaled the population values by multiplying them by 1000 for accuracy. I renamed the columns to simply, "State", "Rural", and "Urban".
 
         df1.iloc[:, 1:4] = df1.iloc[:, 1:4] * 1000
         df1.columns = ['State','Urban','Rural']
