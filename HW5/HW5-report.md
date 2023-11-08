@@ -109,7 +109,7 @@ This chart shows that the majority of states have a relatively low rural populat
 
 For this chart, I used the Seaborn Objects to create a histogram to visualize the distribution of rural populations in the year 2000.
 
-First, I created the plot using the new dataset for rural populations and the `'Population_Amount'` column for the x-axis.
+First, I created the plot using the new dataset for rural populations and the `Population_Amount` column for the x-axis.
 
         (so.Plot(df_rural,"Population_Amount")
 
