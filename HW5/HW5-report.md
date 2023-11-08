@@ -22,7 +22,7 @@ Before creating any distribution charts with the dataset, I performed some data 
         df = pd.read_excel('/content/10s0029.xls', skiprows=4)
         df1 = df.copy()
 
-I removed unnecessary rows, including the header rows, 'United States,' and 'District of Columbia.'
+I removed unnecessary rows, including the header rows, 'United States,' and 'District of Columbia', and footer rows.
 
         df1.drop(df.index[:4],axis=0,inplace=True)
         df1.drop(df.index[[4,13]],axis=0,inplace=True)
