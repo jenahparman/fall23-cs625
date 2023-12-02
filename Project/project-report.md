@@ -1,3 +1,4 @@
+<!---
 Report
 As always, I expect your report to include your name, CS625, date, and appropriate headings and Markdown markup for clarity and neatness. You will lose points if there are many spelling or grammatical errors.
 
@@ -11,3 +12,4 @@ idiom/mark/data/encode table for the final chart (see Markdown Code for Table)
 explanation of how your final chart answers the question and how your headline fits your chart
 "Final Thoughts" section that provides a commentary on the development process, including roughly how much time you spent developing your visualization and what aspects took the most time
 "References" section that includes links to any examples and references that you used in completing this assignment
+-->
