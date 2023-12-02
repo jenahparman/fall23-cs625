@@ -13,3 +13,18 @@ explanation of how your final chart answers the question and how your headline f
 "Final Thoughts" section that provides a commentary on the development process, including roughly how much time you spent developing your visualization and what aspects took the most time
 "References" section that includes links to any examples and references that you used in completing this assignment
 -->
+
+# CS 625: Semester Project
+
+Jenah Parman\
+Date: December 6, 2023
+
+## Introduction
+This report accompanies a visualization that compares the dietary patterns of the Blue Zones (five areas celebrated for longevity) with the average diets of their respective countries. It showcases the differences in calorie consumption from various food groups, highlighting what residents in the Blue Zones eat compared to others in their country. The aim is to provide a clear visual guide to the food choices that may play a role in the extended lifespans characteristic of these regions.
+
+## Data Sources
+### Blue Zones
+The data source for the Blue Zones' diet, accessible at https://www.bluezones.com/explorations/, presents pie charts illustrating the diets of centenarians. These charts break down the typical food group composition that these individuals consumed for the majority of their lives. Each Blue Zone has a chart representing the dietary proportions by food group, which contributes to our understanding of their lifelong eating habits.
+### National Averages
+The data source for the Blue Zones' respective national average was found at 
+
