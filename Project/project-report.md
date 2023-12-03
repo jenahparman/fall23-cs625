@@ -32,7 +32,7 @@ I aimed to discover which food groups are most prevalent in the diets of the wor
 
 #### Idiom/Mark/Data/Encode Table
 
-Idiom: Small Multiples of Barbell Charts and Maps / Mark: Dots and lines, stars
+Idiom: Small Multiples of Barbell Charts and Maps / Mark: Dots and lines, country maps and stars
 | Idiom | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
 | --- | --- | --- | --- |
 | entire visualization | Blue Zone and Home Country | key, categorical | vertical and horizontal spatial region |
