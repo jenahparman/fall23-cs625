@@ -57,7 +57,12 @@ The final assembly of the maps and barbell charts was done using Canva, which le
 In summary, while the process had its complexities, it was very rewarding to see the final visualization come together, offering a clear and insightful comparison of dietary patterns in Blue Zones and their respective countries.
 
 ## References:
-
+* Blue Zones, Explorations - https://www.bluezones.com/explorations/
+* National Library of Medicine, Blue Zones - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6125071/
+* Center for Integrative Healing & Wellness, Blue Zones - Learning from the Longevity Hot Spots - https://www.drfabio.com/healthblog/blue-zones-learning-from-the-longevity-hot-spots
+* Food and Agriculture Organization of the United Nations, Food Balances (2010-) - https://www.fao.org/faostat/en/#data/FBS
+* YouTube, Creating the Map of a Single Country (State) in Tableau by Data Embassy - https://www.youtube.com/watch?v=sadAnZD5Rg0
+* YouTube, How to create a barbell chart in Tableau by Tableau - https://www.youtube.com/watch?v=IUrzmhNaLAs
 
 
 
