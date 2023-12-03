@@ -22,9 +22,19 @@ Date: December 6, 2023
 ## Introduction
 This report accompanies a visualization that compares the dietary patterns of the Blue Zones (five areas celebrated for longevity) with the average diets of their respective countries. It showcases the differences in calorie consumption from various food groups, highlighting what residents in the Blue Zones eat compared to others in their country. The aim is to provide a clear visual guide to the food choices that may play a role in the extended lifespans characteristic of these regions.
 
-## Data Sources
-### Blue Zones
-The data source for the Blue Zones' diet, accessible at https://www.bluezones.com/explorations/, presents pie charts illustrating the diets of centenarians. These charts break down the typical food group composition that these individuals consumed for the majority of their lives. Each Blue Zone has a chart representing the dietary proportions by food group, which contributes to our understanding of their lifelong eating habits.
-### National Averages
-The data source for the Blue Zones' respective national average was found at 
+## Data
+### Blue Zones Diets Data Source
+The data source for the Blue Zones' diet was found on the website, *Blue Zones*. The data, which presents pie charts illustrating the diets of centenarians, is accessible at https://www.bluezones.com/explorations/. These charts break down the typical food group composition that these individuals consumed for the majority of their lives. Each Blue Zone has a chart representing the dietary proportions by food group, which contributes to our understanding of their lifelong eating habits. Various food groups were given for each Blue Zone, which were later categorized into seven food groups.
+### National Diets Data Source
+The data source for the Blue Zones' respective national averages was found on the *Food and Agriculture of the United Nations* site. Filters were applied for select countries, food supply (kcal/capita/day), and the year 2021. All food groups were selected, which I later categorized into the same seven food groups. Please note that the national average data presented in this visualization is based on food supply figures, rather than direct dietary consumption. This approach provides an estimation of potential consumption based on the availability of various food items in each country.
+### Data Cleaning
+In preparation for this visualization, several key data cleaning steps were undertaken. First, I identified seven broad categories that could uniformly represent all food groups from both the Blue Zones and national averages. Then, I reclassified the existing food groups into these newly defined categories for consistency and clarity. Lastly, I totalled all of the foods kcal/day, subtracted "Other" from the total, and divided each to find the proportions of caloric intake.
+
+For a detailed view of this process, please refer to the following links:
+Original Blue Zones diets dataset:
+Original national diets dataset
+List of all food groups and new given food category:
+Final dataset used for visualization: 
+
+
 
