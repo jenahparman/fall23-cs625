@@ -1,7 +1,6 @@
 # CS 625: Semester Project
 
-Jenah Parman
-
+Jenah Parman\
 Date: December 6, 2023
 
 ## Introduction
