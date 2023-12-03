@@ -63,6 +63,7 @@ In summary, while the process had its complexities, it was very rewarding to see
 * Food and Agriculture Organization of the United Nations, Food Balances (2010-) - https://www.fao.org/faostat/en/#data/FBS
 * YouTube, Creating the Map of a Single Country (State) in Tableau by Data Embassy - https://www.youtube.com/watch?v=sadAnZD5Rg0
 * YouTube, How to create a barbell chart in Tableau by Tableau - https://www.youtube.com/watch?v=IUrzmhNaLAs
+* Latitude, Find GPS coordinates for any address or location. - https://latitude.to/
 
 
 
