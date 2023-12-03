@@ -6,8 +6,8 @@ Your report, named project-report.md, should include the following information:
 
 * a brief description of your chosen datasets (including links to the original sources of the data)
 * final question that you addressed
-appropriately-sized image of your final chart
-link to your final chart (similar to HW3, include whatever links or files are needed to view the implementation of your final chart)
+* appropriately-sized image of your final chart
+* link to your final chart (similar to HW3, include whatever links or files are needed to view the implementation of your final chart)
 idiom/mark/data/encode table for the final chart (see Markdown Code for Table)
 * explanation of how your final chart answers the question and how your headline fits your chart
 "Final Thoughts" section that provides a commentary on the development process, including roughly how much time you spent developing your visualization and what aspects took the most time
@@ -38,11 +38,29 @@ For a detailed view of this process, please refer to the following links:
 * Final dataset used for visualization: https://github.com/odu-cs625-datavis/fall23-mcw-jenahparman/blob/main/Project/Resources/final_dataset.csv
 
 ## Final Question and Chart
-### Question: Which food groups dominate the diets of the longest-living populations compared to the national averages?
+### Which food groups dominate the diets of the longest-living populations compared to the national averages?
 I aimed to discover which food groups are most prevalent in the diets of the world's longest-living populations compared to national averages. The analysis revealed distinct dietary patterns in the Blue Zones. Notably, there was a higher consumption of plant-based foods such as fruits, vegetables, and legumes, indicating a preference for natural, unprocessed ingredients. In contrast, the national averages tended to show a more diverse mix, including greater amounts of processed and animal-based products. This finding sheds light on the dietary habits unique to Blue Zones and suggests a potential connection between these eating patterns and the exceptional longevity observed in these communities
 
-### <a href="/Project/Resources/CS625_Project.pdf">Final Chart</a>
-<img src = "/Project/Resources/CS625_Project.png">
+### Final Chart
+<img src = "/Project/Resources/CS625_Project.png" width="1000">
+
+*Link to chart:* https://github.com/odu-cs625-datavis/fall23-mcw-jenahparman/blob/main/Project/Resources/CS625_Project.pdf
+
+#### Idiom/Mark/Data/Encode Table
+
+Idiom: Small Multiples of Barbell Charts and Maps / Mark: Dots and lines, stars
+| Data: Attribute | Data: Attribute Type  | Encode: Channel | 
+| --- |---| --- |
+| food group | key, categorical | vertical spatial region (y-axis) |
+| proportion of food group consumption | value, quantitative | horizontal position on a common scale (x-axis) |
+| disparity of food group consumption | value, quantitative | horizontal position on a common scale (x-axis), length of line |
+| location (Blue Zone or Home Country) | key, categorical | color of dot (blue or green) |
+| location of Blue Zone | value, quantitative | vertical and horizontal position (latitude and longitude coordinates) |
+| Blue Zone | key, categorical | vertical and horizontal spatial region |
+
+
+
+
 
 
 
