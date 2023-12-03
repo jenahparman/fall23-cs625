@@ -4,12 +4,12 @@ As always, I expect your report to include your name, CS625, date, and appropria
 
 Your report, named project-report.md, should include the following information:
 
-a brief description of your chosen datasets (including links to the original sources of the data)
-final question that you addressed
+* a brief description of your chosen datasets (including links to the original sources of the data)
+* final question that you addressed
 appropriately-sized image of your final chart
 link to your final chart (similar to HW3, include whatever links or files are needed to view the implementation of your final chart)
 idiom/mark/data/encode table for the final chart (see Markdown Code for Table)
-explanation of how your final chart answers the question and how your headline fits your chart
+* explanation of how your final chart answers the question and how your headline fits your chart
 "Final Thoughts" section that provides a commentary on the development process, including roughly how much time you spent developing your visualization and what aspects took the most time
 "References" section that includes links to any examples and references that you used in completing this assignment
 -->
@@ -31,10 +31,18 @@ The data source for the Blue Zones' respective national averages was found on th
 In preparation for this visualization, several key data cleaning steps were undertaken. First, I identified seven broad categories that could uniformly represent all food groups from both the Blue Zones and national averages. Then, I reclassified the existing food groups into these newly defined categories for consistency and clarity. Lastly, I totalled all of the foods kcal/day, subtracted "Other" from the total, and divided each to find the proportions of caloric intake.
 
 For a detailed view of this process, please refer to the following links:
-Original Blue Zones diets dataset:
-Original national diets dataset
-List of all food groups and new given food category:
-Final dataset used for visualization: 
+
+* Original Blue Zones diets dataset: https://github.com/odu-cs625-datavis/fall23-mcw-jenahparman/blob/main/Project/Resources/BlueZone_diet_original.csv
+* Original national diets dataset: https://github.com/odu-cs625-datavis/fall23-mcw-jenahparman/blob/main/Project/Resources/FAO_national_diet.csv
+* List of all food groups and new given food category: https://github.com/odu-cs625-datavis/fall23-mcw-jenahparman/blob/main/Project/Resources/foodcategories_list.csv
+* Final dataset used for visualization: https://github.com/odu-cs625-datavis/fall23-mcw-jenahparman/blob/main/Project/Resources/final_dataset.csv
+
+## Final Question and Chart
+### Question: Which food groups dominate the diets of the longest-living populations compared to the national averages?
+I aimed to discover which food groups are most prevalent in the diets of the world's longest-living populations compared to national averages. The analysis revealed distinct dietary patterns in the Blue Zones. Notably, there was a higher consumption of plant-based foods such as fruits, vegetables, and legumes, indicating a preference for natural, unprocessed ingredients. In contrast, the national averages tended to show a more diverse mix, including greater amounts of processed and animal-based products. This finding sheds light on the dietary habits unique to Blue Zones and suggests a potential connection between these eating patterns and the exceptional longevity observed in these communities
+
+### <a href="/Project/Resources/CS625_Project.pdf">Final Chart</a>
+<img src = "/Project/Resources/CS625_Project.png">
 
 
 
