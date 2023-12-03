@@ -38,7 +38,7 @@ Idiom: Small Multiples of Barbell Charts and Maps / Mark: Dots and lines, stars
 | entire visualization | Blue Zone and Home Country | key, categorical | vertical and horizontal spatial region |
 | barbell chart | food group | key, categorical | vertical spatial region (y-axis) |
 | barbell chart | proportion of food group consumption | value, quantitative | horizontal position on a common scale (x-axis) |
-| barbell chart | disparity of food group consumption | value, quantitative | horizontal position on a common scale (x-axis), length of line |
+| barbell chart | disparity of food group consumption in Blue Zone vs Home Country| value, quantitative | horizontal position on a common scale (x-axis), length of line |
 | barbell chart | location (Blue Zone or Home Country) | key, categorical | color of dot (blue or green) |
 | map | location of Blue Zone | value, quantitative | vertical and horizontal position (latitude and longitude coordinates) |
 | map |location (Blue Zone or Home Country) | key, categorical | color (blue or green) |
