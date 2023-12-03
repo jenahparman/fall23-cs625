@@ -23,7 +23,7 @@ For a detailed view of this process, please refer to the following links:
 
 ## Final Question and Chart
 ### Which food groups dominate the diets of the longest-living populations compared to the national averages?
-I aimed to discover which food groups are most prevalent in the diets of the world's longest-living populations compared to national averages. The analysis revealed distinct dietary patterns in the Blue Zones. Notably, there was a higher consumption of plant-based foods such as fruits, vegetables, and legumes, indicating a preference for natural, unprocessed ingredients. In contrast, the national averages tended to show a more diverse mix, including greater amounts of processed and animal-based products. This finding sheds light on the dietary habits unique to Blue Zones and suggests a potential connection between these eating patterns and the exceptional longevity observed in these communities
+I aimed to discover which food groups are most prevalent in the diets of the world's longest-living populations compared to national averages. The analysis revealed distinct dietary patterns in the Blue Zones. Notably, there was a higher consumption of plant-based foods such as fruits, vegetables, and legumes, indicating a preference for natural, unprocessed ingredients. In contrast, the national averages tended to show a more diverse mix, including greater amounts of processed and animal-based products. This finding sheds light on the dietary habits unique to Blue Zones and suggests a potential connection between these eating patterns and the exceptional longevity observed in these communities.
 
 ### Final Chart
 <img src = "/Project/Resources/CS625_Project.png" width="1000">
