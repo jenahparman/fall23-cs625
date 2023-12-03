@@ -60,9 +60,10 @@ In summary, while the process had its complexities, it was very rewarding to see
 * National Library of Medicine, Blue Zones - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6125071/
 * Center for Integrative Healing & Wellness, Blue Zones - Learning from the Longevity Hot Spots - https://www.drfabio.com/healthblog/blue-zones-learning-from-the-longevity-hot-spots
 * Food and Agriculture Organization of the United Nations, Food Balances (2010-) - https://www.fao.org/faostat/en/#data/FBS
+* Latitude, Find GPS coordinates for any address or location. - https://latitude.to/
 * YouTube, Creating the Map of a Single Country (State) in Tableau by Data Embassy - https://www.youtube.com/watch?v=sadAnZD5Rg0
 * YouTube, How to create a barbell chart in Tableau by Tableau - https://www.youtube.com/watch?v=IUrzmhNaLAs
-* Latitude, Find GPS coordinates for any address or location. - https://latitude.to/
+* Tableau, Plotting Geographic Data Using Custom Longitude and Latitude Values - https://kb.tableau.com/articles/howto/plotting-geographic-data-using-custom-longitude-and-latitude?_gl=1*16hti7o*_ga*MTA5MzU4NzUxLjE2OTgzNDUxMjQ.*_ga_8YLN0SNXVS*MTcwMTI5MzQ2MC4xNS4xLjE3MDEyOTM0NzguMC4wLjA.&_ga=2.37448547.29238187.1701132351-109358751.1698345124
 
 
 
