@@ -1,0 +1,71 @@
+Area,Latitude,Longitude,Country,Food_group,Proportion
+Nicoya,9.9591,-85.3550,Costa Rica,Added Fats,0.02
+Nicoya,9.9591,-85.3550,Costa Rica,Added Sugar,0.11
+Nicoya,9.9591,-85.3550,Costa Rica,Dairy,0.26
+Nicoya,9.9591,-85.3550,Costa Rica,Fruits and Vegetables,0.23
+Nicoya,9.9591,-85.3550,Costa Rica,Grains,0.26
+Nicoya,9.9591,-85.3550,Costa Rica,Legumes,0.07
+Nicoya,9.9591,-85.3550,Costa Rica,"Meat, Fish, Poultry",0.05
+Costa Rica,,,Costa Rica,Added Fats,0.173884893098935
+Costa Rica,,,Costa Rica,Added Sugar,0.156153672920743
+Costa Rica,,,Costa Rica,Dairy,0.143190423240953
+Costa Rica,,,Costa Rica,Fruits and Vegetables,0.0505580812701451
+Costa Rica,,,Costa Rica,Grains,0.34191098850057
+Costa Rica,,,Costa Rica,Legumes,0.0306874322631497
+Costa Rica,,,Costa Rica,"Meat, Fish, Poultry",0.103614508705505
+Ikaria,37.5967,26.1123,Greece,Added Fats,0.06
+Ikaria,37.5967,26.1123,Greece,Added Sugar,0.04
+Ikaria,37.5967,26.1123,Greece,Dairy,0
+Ikaria,37.5967,26.1123,Greece,Fruits and Vegetables,0.62
+Ikaria,37.5967,26.1123,Greece,Grains,0.06
+Ikaria,37.5967,26.1123,Greece,Legumes,0.11
+Ikaria,37.5967,26.1123,Greece,"Meat, Fish, Poultry",0.11
+Greece,,,Greece,Added Fats,0.231722694962591
+Greece,,,Greece,Added Sugar,0.112996883338471
+Greece,,,Greece,Dairy,0.154951942386908
+Greece,,,Greece,Fruits and Vegetables,0.13881753674765
+Greece,,,Greece,Grains,0.24554373445172
+Greece,,,Greece,Legumes,0.00907599236558035
+Greece,,,Greece,"Meat, Fish, Poultry",0.10689121574708
+Sardinia,40.1209,9.0129,Italy,Added Fats,0.02
+Sardinia,40.1209,9.0129,Italy,Added Sugar,0.03
+Sardinia,40.1209,9.0129,Italy,Dairy,0.26
+Sardinia,40.1209,9.0129,Italy,Fruits and Vegetables,0.13
+Sardinia,40.1209,9.0129,Italy,Grains,0.47
+Sardinia,40.1209,9.0129,Italy,Legumes,0.04
+Sardinia,40.1209,9.0129,Italy,"Meat, Fish, Poultry",0.05
+Italy,,,Italy,Added Fats,0.235814900639
+Italy,,,Italy,Added Sugar,0.097392037076048
+Italy,,,Italy,Dairy,0.148385647075346
+Italy,,,Italy,Fruits and Vegetables,0.0891987922196475
+Italy,,,Italy,Grains,0.306099290780142
+Italy,,,Italy,Legumes,0.0156477775437118
+Italy,,,Italy,"Meat, Fish, Poultry",0.107461554666105
+Okinawa,26.3344,127.8056,Japan,Added Fats,0
+Okinawa,26.3344,127.8056,Japan,Added Sugar,0
+Okinawa,26.3344,127.8056,Japan,Dairy,0
+Okinawa,26.3344,127.8056,Japan,Fruits and Vegetables,0.76
+Okinawa,26.3344,127.8056,Japan,Grains,0.16
+Okinawa,26.3344,127.8056,Japan,Legumes,0.06
+Okinawa,26.3344,127.8056,Japan,"Meat, Fish, Poultry",0.02
+Japan,,,Japan,Added Fats,0.173761129508814
+Japan,,,Japan,Added Sugar,0.107124868627179
+Japan,,,Japan,Dairy,0.0818576612663348
+Japan,,,Japan,Fruits and Vegetables,0.0740169347002717
+Japan,,,Japan,Grains,0.383830732316723
+Japan,,,Japan,Legumes,0.045192250490789
+Japan,,,Japan,"Meat, Fish, Poultry",0.134216423089889
+Loma Linda,34.0483,-117.2612,United States of America,Added Fats,0.04
+Loma Linda,34.0483,-117.2612,United States of America,Added Sugar,0.01
+Loma Linda,34.0483,-117.2612,United States of America,Dairy,0.11
+Loma Linda,34.0483,-117.2612,United States of America,Fruits and Vegetables,0.6
+Loma Linda,34.0483,-117.2612,United States of America,Grains,0.07
+Loma Linda,34.0483,-117.2612,United States of America,Legumes,0.12
+Loma Linda,34.0483,-117.2612,United States of America,"Meat, Fish, Poultry",0.05
+United States of America,,,United States of America,Added Fats,0.243511560926161
+United States of America,,,United States of America,Added Sugar,0.161651836714991
+United States of America,,,United States of America,Dairy,0.137875642944107
+United States of America,,,United States of America,Fruits and Vegetables,0.0849463922723348
+United States of America,,,United States of America,Grains,0.219424286794639
+United States of America,,,United States of America,Legumes,0.00779041765220143
+United States of America,,,United States of America,"Meat, Fish, Poultry",0.144799862695565
