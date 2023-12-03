@@ -8,9 +8,9 @@ Your report, named project-report.md, should include the following information:
 * final question that you addressed
 * appropriately-sized image of your final chart
 * link to your final chart (similar to HW3, include whatever links or files are needed to view the implementation of your final chart)
-idiom/mark/data/encode table for the final chart (see Markdown Code for Table)
+* idiom/mark/data/encode table for the final chart (see Markdown Code for Table)
 * explanation of how your final chart answers the question and how your headline fits your chart
-"Final Thoughts" section that provides a commentary on the development process, including roughly how much time you spent developing your visualization and what aspects took the most time
+* "Final Thoughts" section that provides a commentary on the development process, including roughly how much time you spent developing your visualization and what aspects took the most time
 "References" section that includes links to any examples and references that you used in completing this assignment
 -->
 
@@ -59,6 +59,17 @@ Idiom: Small Multiples of Barbell Charts and Maps / Mark: Dots and lines, stars
 | map | location of Blue Zone | value, quantitative | vertical and horizontal position (latitude and longitude coordinates) |
 | map |location (Blue Zone or Home Country) | key, categorical | color (blue or green) |
 
+
+## Final Thoughts
+The journey to developing this visualization was filled with its fair share of trials and tribulations. Initially, the most challenging part was gathering the national average food consumption data for each country. This task proved to be difficult and tedious, as I struggled to find data that was consistent and comparable across different regions. Many sources had discrepancies, either in the research methods or in the units of measurement, such as grams instead of calories.
+
+My breakthrough came when I discovered the Food and Agriculture Organization's website, which provided a comprehensive and consistent set of data. With this valuable resource in hand, I moved on to cleaning and categorizing the data. Determining the food categories and calculating the proportions turned out to be a smoother process than anticipated.
+
+Creating the barbell charts in Tableau was relatively straightforward. However, deciding the order of the barbells posed a challenge. My initial approach was to arrange them from longest to shortest, but this arrangement evolved once I placed all the charts side by side. I also tackled creating the country maps in Tableau, which involved a bit of a learning curve. Figuring out how to accurately place the star marker, adjust the map color, and focus on each specific country took some effort, but fortunately, I found excellent guidance from YouTube tutorials and other online resources.
+
+The final assembly of the maps and barbell charts was done using Canva, which led me to re-evaluate and standardize the order of the food group barbells across all charts for better comparability. The most time-consuming aspect was deciding on the positioning of the final chart elements and choosing the fonts in Canva. Selecting the right fonts to convey the right tone and readability proved to be unexpectedly challenging.
+
+In summary, while the process had its complexities, it was very rewarding to see the final visualization come together, offering a clear and insightful comparison of dietary patterns in Blue Zones and their respective countries.
 
 
 
